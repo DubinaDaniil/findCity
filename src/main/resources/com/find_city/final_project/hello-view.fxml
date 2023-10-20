@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox fx:controller="com.find_city.final_project.HelloController"
+      xmlns:fx="http://javafx.com/fxml"
+      alignment="CENTER"
+      spacing="20.0">
+
+    <GridPane fx:id="gameArea"
+              hgap="20"
+              vgap="20"
+              visible="false">
+        <columnConstraints>
+            <ColumnConstraints percentWidth="50"/>
+            <ColumnConstraints percentWidth="50"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints/>
+            <RowConstraints/>
+        </rowConstraints>
+        <TextField fx:id="inputText"
+                   GridPane.columnIndex="0"
+                   GridPane.rowIndex="0"/>
+        <Label GridPane.columnIndex="1"
+               GridPane.rowIndex="0"
+               text="Enter the city name"/>
+        <Button fx:id="nextCity"
+                GridPane.columnIndex="0"
+                GridPane.rowIndex="1"
+                maxWidth="Infinity"
+                text="Your turn"/>
+        <HBox GridPane.columnIndex="1"
+              GridPane.rowIndex="1">
+            <Label text="Computer: "/>
+            <Label fx:id="pcCity"/>
+        </HBox>
+    </GridPane>
+    <Button onAction="#onHelloButtonClick"
+            text="Hello!"/>
+    <padding>
+        <Insets top="20.0"
+                right="20.0"
+                bottom="20.0"
+                left="20.0"/>
+    </padding>
+</VBox>
