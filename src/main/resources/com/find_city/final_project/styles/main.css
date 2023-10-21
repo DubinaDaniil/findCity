@@ -1,0 +1,33 @@
+* {
+    -fx-wrap-text: true;
+}
+
+.root {
+    -fx-background-color: linear-gradient(rgba(8, 8, 239, 0.63), rgba(255, 255, 0, 0.63));
+}
+
+.header-label {
+    -fx-font-size: 20;
+}
+
+.rules {
+    -fx-font-size: 14;
+    -fx-text-fill: red;
+}
+
+.attention {
+    -fx-font-size: 16;
+    -fx-text-fill: red;
+}
+
+.start-game {
+    -fx-font-size: 16;
+    -fx-background-color: rgba(104, 203, 120, 0.75);
+    -fx-border-color: rgba(104, 203, 120, 0.75);
+    -fx-font-weight: bold;
+}
+
+.start-game:pressed {
+    -fx-background-color: rgba(104, 203, 120, 0.45);
+    -fx-border-color: rgba(53, 101, 62, 0.45);
+}

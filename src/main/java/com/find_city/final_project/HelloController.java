@@ -1,10 +1,14 @@
 package com.find_city.final_project;
 
-import javafx.fxml.FXML;
+import javafx.fxml.*;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 
-public class HelloController {
+import java.net.*;
+import java.util.*;
+
+public class HelloController implements Initializable {
+
     @FXML
     private GridPane gameArea;
     @FXML
@@ -13,9 +17,18 @@ public class HelloController {
     private TextField inputText;
     @FXML
     private Label pcCity;
+    @FXML
+    private VBox inviteVbox;
 
     @FXML
-    public void onHelloButtonClick() {
+    public void onStartGameButtonClick() {
         gameArea.setVisible(true);
+        inviteVbox.setVisible(false);
+    }
+
+    @Override
+    public void initialize(final URL location, final ResourceBundle resources) {
+        gameArea.managedProperty().bind(gameArea.visibleProperty());
+        inviteVbox.managedProperty().bind(inviteVbox.visibleProperty());
     }
 }
