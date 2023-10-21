@@ -3,6 +3,7 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
 <VBox fx:controller="com.find_city.final_project.HelloController"
       xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
@@ -46,31 +47,60 @@
     <GridPane fx:id="gameArea"
               hgap="20"
               vgap="20"
+              prefHeight="240"
               visible="false">
         <columnConstraints>
             <ColumnConstraints percentWidth="50"/>
             <ColumnConstraints percentWidth="50"/>
         </columnConstraints>
         <rowConstraints>
-            <RowConstraints/>
-            <RowConstraints/>
+            <RowConstraints percentHeight="50"/>
+            <RowConstraints percentHeight="50"/>
         </rowConstraints>
-        <TextField fx:id="inputText"
-                   GridPane.columnIndex="0"
-                   GridPane.rowIndex="0"/>
-        <Label GridPane.columnIndex="1"
-               GridPane.rowIndex="0"
-               text="Enter the city name"/>
+        <VBox GridPane.columnIndex="0"
+              GridPane.rowIndex="0"
+              spacing="10"
+              alignment="CENTER">
+            <Label text="Введи назву міста"
+                   styleClass="enter-city"/>
+            <TextField fx:id="inputText"
+                       styleClass="input"/>
+        </VBox>
+        <VBox GridPane.columnIndex="1"
+              GridPane.rowIndex="0"
+              alignment="CENTER">
+            <HBox>
+                <Label text="Твоє попереднє місто: "
+                       styleClass="enter-city"/>
+                <Label fx:id="prevCity"
+                       text="Харьков"
+                       styleClass="enter-city"/>
+            </HBox>
+            <ImageView fx:id="customerCityEmblem"
+                       fitWidth="50"
+                       fitHeight="50"/>
+        </VBox>
         <Button fx:id="nextCity"
                 GridPane.columnIndex="0"
                 GridPane.rowIndex="1"
-                maxWidth="Infinity"
-                text="Your turn"/>
-        <HBox GridPane.columnIndex="1"
-              GridPane.rowIndex="1">
-            <Label text="Computer: "/>
-            <Label fx:id="pcCity"/>
-        </HBox>
+                text="Зробити хід"
+                styleClass="start-game"
+                prefHeight="40"
+                maxWidth="Infinity"/>
+        <VBox GridPane.columnIndex="1"
+              GridPane.rowIndex="1"
+              alignment="CENTER">
+            <HBox>
+                <Label text="Комп'ютер сказав: "
+                       styleClass="enter-city"/>
+                <Label fx:id="pcCity"
+                       text="Харьков"
+                       styleClass="enter-city"/>
+            </HBox>
+            <ImageView fx:id="pcCityEmblem"
+                       fitWidth="50"
+                       fitHeight="50"/>
+        </VBox>
     </GridPane>
     <padding>
         <Insets top="20.0"

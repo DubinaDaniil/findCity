@@ -2,6 +2,7 @@ package com.find_city.final_project;
 
 import javafx.fxml.*;
 import javafx.scene.control.*;
+import javafx.scene.image.*;
 import javafx.scene.layout.*;
 
 import java.net.*;
@@ -19,6 +20,15 @@ public class HelloController implements Initializable {
     private Label pcCity;
     @FXML
     private VBox inviteVbox;
+    @FXML
+    private Label prevCity;
+    @FXML
+    private ImageView customerCityEmblem;
+    @FXML
+    private ImageView pcCityEmblem;
+
+    URL imageURL = getClass().getResource("images/ic-kiev.png");
+    Image image = new Image(Objects.requireNonNull(imageURL).toExternalForm());
 
     @FXML
     public void onStartGameButtonClick() {
@@ -30,5 +40,7 @@ public class HelloController implements Initializable {
     public void initialize(final URL location, final ResourceBundle resources) {
         gameArea.managedProperty().bind(gameArea.visibleProperty());
         inviteVbox.managedProperty().bind(inviteVbox.visibleProperty());
+        customerCityEmblem.setImage(image);
+        pcCityEmblem.setImage(image);
     }
 }
