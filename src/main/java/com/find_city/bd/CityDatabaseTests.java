@@ -15,7 +15,6 @@ public class CityDatabaseTests {
 
         System.out.println(cityNames);
 
-        System.out.println(database.contain("алупка"));
-
+        System.out.println(database.contain(" алупка "));
     }
 }
