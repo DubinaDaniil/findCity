@@ -1,0 +1,2307 @@
+[
+  {
+    "id": 0,
+    "name": "Авдіївка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Avdiivka_gerb.png/50px-Avdiivka_gerb.png"
+  },
+  {
+    "id": 1,
+    "name": "Алмазна",
+    "url": ""
+  },
+  {
+    "id": 2,
+    "name": "Алупка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/COA_Alupka%2C_Yaltynska%2C_Crimea.svg/50px-COA_Alupka%2C_Yaltynska%2C_Crimea.svg.png"
+  },
+  {
+    "id": 3,
+    "name": "Алушта",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/COA_Alushta.svg/50px-COA_Alushta.svg.png"
+  },
+  {
+    "id": 4,
+    "name": "Алчевськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coat_of_Arms_of_Alchevsk.svg/50px-Coat_of_Arms_of_Alchevsk.svg.png"
+  },
+  {
+    "id": 5,
+    "name": "Амвросіївка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Amvrosiyivka_gerb.png/50px-Amvrosiyivka_gerb.png"
+  },
+  {
+    "id": 6,
+    "name": "Ананьїв",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Ananyiv_big_gerb.png/50px-Ananyiv_big_gerb.png"
+  },
+  {
+    "id": 7,
+    "name": "Андрушівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Coat_of_arms_of_Andrushivka.svg/50px-Coat_of_arms_of_Andrushivka.svg.png"
+  },
+  {
+    "id": 8,
+    "name": "Антрацит",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_of_Arms_of_Antraczyt.png/50px-Coat_of_Arms_of_Antraczyt.png"
+  },
+  {
+    "id": 9,
+    "name": "Апостолове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Coat_of_arms_of_Apostolove.gif/50px-Coat_of_arms_of_Apostolove.gif"
+  },
+  {
+    "id": 10,
+    "name": "Армянськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/COA_Armiansk%2C_Krym.svg/50px-COA_Armiansk%2C_Krym.svg.png"
+  },
+  {
+    "id": 11,
+    "name": "Арциз",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Artsyz_city_gerb_new.png/50px-Artsyz_city_gerb_new.png"
+  },
+  {
+    "id": 12,
+    "name": "Балаклія",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/%D0%93%D0%B5%D1%80%D0%B1_%D0%91%D0%B0%D0%BB%D0%B0%D0%BA%D0%BB%D0%B5%D0%B8.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%91%D0%B0%D0%BB%D0%B0%D0%BA%D0%BB%D0%B5%D0%B8.png"
+  },
+  {
+    "id": 13,
+    "name": "Балта",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Balta_coat_of_arms_new_official.png/50px-Balta_coat_of_arms_new_official.png"
+  },
+  {
+    "id": 14,
+    "name": "Бар Бар",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Barcoatofarms.png/50px-Barcoatofarms.png"
+  },
+  {
+    "id": 15,
+    "name": "Баранівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Baranivka_s.png/50px-Baranivka_s.png"
+  },
+  {
+    "id": 16,
+    "name": "Барвінкове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/%D0%93%D0%B5%D1%80%D0%B1_%D0%91%D0%B0%D1%80%D0%B2%D0%B5%D0%BD%D0%BA%D0%BE%D0%B2%D0%BE.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%91%D0%B0%D1%80%D0%B2%D0%B5%D0%BD%D0%BA%D0%BE%D0%B2%D0%BE.png"
+  },
+  {
+    "id": 17,
+    "name": "Батурин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Baturyn_gerb.png/50px-Baturyn_gerb.png"
+  },
+  {
+    "id": 18,
+    "name": "Бахмач",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Bahmach_gerb.svg/50px-Bahmach_gerb.svg.png"
+  },
+  {
+    "id": 19,
+    "name": "Бахмут",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Coat_of_Arms_of_Bakhmut.svg/50px-Coat_of_Arms_of_Bakhmut.svg.png"
+  },
+  {
+    "id": 20,
+    "name": "Бахчисарай",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/90/COA_Bakhchysarai.svg/50px-COA_Bakhchysarai.svg.png"
+  },
+  {
+    "id": 21,
+    "name": "Баштанка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Coats_of_arms_of_Bashtanka.png/50px-Coats_of_arms_of_Bashtanka.png"
+  },
+  {
+    "id": 22,
+    "name": "Белз",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_Arms_Belz.png/50px-Coat_of_Arms_Belz.png"
+  },
+  {
+    "id": 23,
+    "name": "Бердичів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Coat_of_arms_of_Berdychiv.svg/50px-Coat_of_arms_of_Berdychiv.svg.png"
+  },
+  {
+    "id": 24,
+    "name": "Бердянськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/%D0%93%D0%B5%D1%80%D0%B1_%D0%91%D0%B5%D1%80%D0%B4%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B0.svg/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%91%D0%B5%D1%80%D0%B4%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B0.svg.png"
+  },
+  {
+    "id": 25,
+    "name": "Берегове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Coat_of_Arms_of_Beregove.png/50px-Coat_of_Arms_of_Beregove.png"
+  },
+  {
+    "id": 26,
+    "name": "Бережани",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/13/Coat_of_Arms_of_Berezhany.svg/50px-Coat_of_Arms_of_Berezhany.svg.png"
+  },
+  {
+    "id": 27,
+    "name": "Березань",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Coat_of_Arms_of_Berezan.svg/50px-Coat_of_Arms_of_Berezan.svg.png"
+  },
+  {
+    "id": 28,
+    "name": "Березівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Berezivka_gerb.png/50px-Berezivka_gerb.png"
+  },
+  {
+    "id": 29,
+    "name": "Березне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Berezne.png/50px-Berezne.png"
+  },
+  {
+    "id": 30,
+    "name": "Берестечко",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Berestechko_s.png/50px-Berestechko_s.png"
+  },
+  {
+    "id": 31,
+    "name": "Берислав",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Beryslav_gerb.png/50px-Beryslav_gerb.png"
+  },
+  {
+    "id": 32,
+    "name": "Бершадь",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Bershad_coat_of_arms_%28UHT%29.svg/50px-Bershad_coat_of_arms_%28UHT%29.svg.png"
+  },
+  {
+    "id": 33,
+    "name": "Бібрка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_of_Arms_Bibrka.png/50px-Coat_of_Arms_Bibrka.png"
+  },
+  {
+    "id": 34,
+    "name": "Біла Церква",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bila_Tserkva_gerb.svg/50px-Bila_Tserkva_gerb.svg.png"
+  },
+  {
+    "id": 35,
+    "name": "Білгород-Дністровський",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/COA_of_Bilhorod-Dnistrovskyi.png/50px-COA_of_Bilhorod-Dnistrovskyi.png"
+  },
+  {
+    "id": 36,
+    "name": "Білицьке",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/COA_Bilytske.svg/50px-COA_Bilytske.svg.png"
+  },
+  {
+    "id": 37,
+    "name": "Білогірськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/COA_Bilohirsk%2C_Krym.svg/50px-COA_Bilohirsk%2C_Krym.svg.png"
+  },
+  {
+    "id": 38,
+    "name": "Білозерське",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Belozerske_gerb.png/50px-Belozerske_gerb.png"
+  },
+  {
+    "id": 39,
+    "name": "Білопілля",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bilopillya_2016_gerb.png/50px-Bilopillya_2016_gerb.png"
+  },
+  {
+    "id": 40,
+    "name": "Біляївка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bilyayivka_coat_of_arms.svg/50px-Bilyayivka_coat_of_arms.svg.png"
+  },
+  {
+    "id": 41,
+    "name": "Благовіщенське",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Coat_of_arms_of_Blahovishchenske_Raion_in_Kirovohrad_Oblast.png/50px-Coat_of_arms_of_Blahovishchenske_Raion_in_Kirovohrad_Oblast.png"
+  },
+  {
+    "id": 42,
+    "name": "Бобринець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Coat_of_Arms_Bobrynets.png/50px-Coat_of_Arms_Bobrynets.png"
+  },
+  {
+    "id": 43,
+    "name": "Бобровиця",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/80/UKR_%D0%91%D0%BE%D0%B1%D1%80%D0%BE%CC%81%D0%B2%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9_%D1%80%D0%B0%D0%B9%D0%BE%CC%81%D0%BD_COA.svg/50px-UKR_%D0%91%D0%BE%D0%B1%D1%80%D0%BE%CC%81%D0%B2%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9_%D1%80%D0%B0%D0%B9%D0%BE%CC%81%D0%BD_COA.svg.png"
+  },
+  {
+    "id": 44,
+    "name": "Богодухів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Coat_of_Arms_of_Bohodukhiv.png/50px-Coat_of_Arms_of_Bohodukhiv.png"
+  },
+  {
+    "id": 45,
+    "name": "Богуслав",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Gerb-boguslav.png/50px-Gerb-boguslav.png"
+  },
+  {
+    "id": 46,
+    "name": "Боково-Хрустальне",
+    "url": ""
+  },
+  {
+    "id": 47,
+    "name": "Болград",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Bolgrad_gerb_new.png/50px-Bolgrad_gerb_new.png"
+  },
+  {
+    "id": 48,
+    "name": "Болехів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Coat_of_arms_of_Bolekhiv.png/50px-Coat_of_arms_of_Bolekhiv.png"
+  },
+  {
+    "id": 49,
+    "name": "Борзна",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Coat_of_arms_of_Borzna.svg/50px-Coat_of_arms_of_Borzna.svg.png"
+  },
+  {
+    "id": 50,
+    "name": "Борислав",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Coat_of_Arms_of_Boryslav.svg/50px-Coat_of_Arms_of_Boryslav.svg.png"
+  },
+  {
+    "id": 51,
+    "name": "Бориспіль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Coat_of_Arms_Boryspil.svg/50px-Coat_of_Arms_Boryspil.svg.png"
+  },
+  {
+    "id": 52,
+    "name": "Борщів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Borschiw_s.png/50px-Borschiw_s.png"
+  },
+  {
+    "id": 53,
+    "name": "Боярка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Boyarka_gerb.png/50px-Boyarka_gerb.png"
+  },
+  {
+    "id": 54,
+    "name": "Бровари",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Brovary_gerb_new.PNG/50px-Brovary_gerb_new.PNG"
+  },
+  {
+    "id": 55,
+    "name": "Броди",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/%D0%91%D1%80%D0%BE%D0%B4%D0%B8_%D0%B3%D0%B5%D1%80%D0%B1.png/50px-%D0%91%D1%80%D0%BE%D0%B4%D0%B8_%D0%B3%D0%B5%D1%80%D0%B1.png"
+  },
+  {
+    "id": 56,
+    "name": "Брянка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Coat_of_Arms_of_Bryanka.gif/50px-Coat_of_Arms_of_Bryanka.gif"
+  },
+  {
+    "id": 57,
+    "name": "Бунге",
+    "url": ""
+  },
+  {
+    "id": 58,
+    "name": "Буринь",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Gerb-buryny.png/50px-Gerb-buryny.png"
+  },
+  {
+    "id": 59,
+    "name": "Бурштин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Coat_of_Arms_of_Burshtyn.svg/50px-Coat_of_Arms_of_Burshtyn.svg.png"
+  },
+  {
+    "id": 60,
+    "name": "Буськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Busk_gerb.png/50px-Busk_gerb.png"
+  },
+  {
+    "id": 61,
+    "name": "Буча",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_Arms_of_Bucha.png/50px-Coat_of_Arms_of_Bucha.png"
+  },
+  {
+    "id": 62,
+    "name": "Бучач",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Coat_of_Arms_Buchach.PNG/50px-Coat_of_Arms_Buchach.PNG"
+  },
+  {
+    "id": 63,
+    "name": "Валки Валки",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Valki_COA_%28Kharkov_Governorate%29_%281781%29.png/50px-Valki_COA_%28Kharkov_Governorate%29_%281781%29.png"
+  },
+  {
+    "id": 64,
+    "name": "Вараш",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Coat_of_Arms_of_Varash.svg/50px-Coat_of_Arms_of_Varash.svg.png"
+  },
+  {
+    "id": 65,
+    "name": "Василівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Vasylivka_COA.svg/50px-Vasylivka_COA.svg.png"
+  },
+  {
+    "id": 66,
+    "name": "Васильків",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Vasilkov_COA_%28Kiev_Governorate%29_%281852%29.png/50px-Vasilkov_COA_%28Kiev_Governorate%29_%281852%29.png"
+  },
+  {
+    "id": 67,
+    "name": "Ватутіне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Vatutine_gerb.png/50px-Vatutine_gerb.png"
+  },
+  {
+    "id": 68,
+    "name": "Вашківці",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Coats_of_arms_of_Vashkivtsi_%28Ukraine%29.png/50px-Coats_of_arms_of_Vashkivtsi_%28Ukraine%29.png"
+  },
+  {
+    "id": 69,
+    "name": "Великі Мости",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/POL_Mosty_Wielkie_COA.svg/50px-POL_Mosty_Wielkie_COA.svg.png"
+  },
+  {
+    "id": 70,
+    "name": "Верхівцеве",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Verkhivtseve_coat.svg/50px-Verkhivtseve_coat.svg.png"
+  },
+  {
+    "id": 71,
+    "name": "Верхньодніпровськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Coat_of_Arms_of_Verkhnodniprovsk.svg/50px-Coat_of_Arms_of_Verkhnodniprovsk.svg.png"
+  },
+  {
+    "id": 72,
+    "name": "Вижниця",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Vygnytsa_city_gerb.png/50px-Vygnytsa_city_gerb.png"
+  },
+  {
+    "id": 73,
+    "name": "Вилкове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Vilkovo_emblem.png/50px-Vilkovo_emblem.png"
+  },
+  {
+    "id": 74,
+    "name": "Винники",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_Arms_of_Vynnyky%2C_Lviv_Oblast.svg/50px-Coat_of_Arms_of_Vynnyky%2C_Lviv_Oblast.svg.png"
+  },
+  {
+    "id": 75,
+    "name": "Виноградів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Coat_of_Arms_of_Vynohradiv.jpg/50px-Coat_of_Arms_of_Vynohradiv.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Вишгород",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%D0%93%D0%B5%D1%80%D0%B1_%D0%92%D0%B8%D1%88%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%92%D0%B8%D1%88%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0.png"
+  },
+  {
+    "id": 77,
+    "name": "Вишневе Вишневе",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Gerb_vishneve_0317.png/50px-Gerb_vishneve_0317.png"
+  },
+  {
+    "id": 78,
+    "name": "Вільногірськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Coat_of_Arms_of_Vilnohirsk.svg/50px-Coat_of_Arms_of_Vilnohirsk.svg.png"
+  },
+  {
+    "id": 79,
+    "name": "Вільнянськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Coat_of_arms_Vilnyansk.PNG/50px-Coat_of_arms_Vilnyansk.PNG"
+  },
+  {
+    "id": 80,
+    "name": "Вінниця",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Vinnytsya_gerb.png/50px-Vinnytsya_gerb.png"
+  },
+  {
+    "id": 81,
+    "name": "Вовчанськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/%D0%93%D0%B5%D1%80%D0%B1_%D0%92%D0%BE%D0%BB%D1%87%D0%B0%D0%BD%D1%81%D0%BA%D0%B0.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%92%D0%BE%D0%BB%D1%87%D0%B0%D0%BD%D1%81%D0%BA%D0%B0.png"
+  },
+  {
+    "id": 82,
+    "name": "Вознесенівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Chervonopartyzansk_gerb.png/50px-Chervonopartyzansk_gerb.png"
+  },
+  {
+    "id": 83,
+    "name": "Вознесенськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Voznesensk_new_gerb.png/50px-Voznesensk_new_gerb.png"
+  },
+  {
+    "id": 84,
+    "name": "Волноваха",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Coat_of_Arms_of_Volnovakha_1999.png/50px-Coat_of_Arms_of_Volnovakha_1999.png"
+  },
+  {
+    "id": 85,
+    "name": "Володимир",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coat_of_Arms_of_Volodymyr-Volynsky.png/50px-Coat_of_Arms_of_Volodymyr-Volynsky.png"
+  },
+  {
+    "id": 86,
+    "name": "Волочиськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Volochisk_gerb.png/50px-Volochisk_gerb.png"
+  },
+  {
+    "id": 87,
+    "name": "Ворожба Ворожба",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Vorozhba_gerb.png/50px-Vorozhba_gerb.png"
+  },
+  {
+    "id": 88,
+    "name": "Вуглегірськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vuglegirsk_gerb.png/50px-Vuglegirsk_gerb.png"
+  },
+  {
+    "id": 89,
+    "name": "Вугледар",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Coat_of_Arms_of_Vuhledar.svg/50px-Coat_of_Arms_of_Vuhledar.svg.png"
+  },
+  {
+    "id": 90,
+    "name": "Гадяч",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Hadyach_gerb.png/50px-Hadyach_gerb.png"
+  },
+  {
+    "id": 91,
+    "name": "Гайворон",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/COA_of_Haivoron.png/50px-COA_of_Haivoron.png"
+  },
+  {
+    "id": 92,
+    "name": "Гайсин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Coat_of_Arms_of_Haisyn.PNG/50px-Coat_of_Arms_of_Haisyn.PNG"
+  },
+  {
+    "id": 93,
+    "name": "Галич",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/COA_of_Halych.svg/50px-COA_of_Halych.svg.png"
+  },
+  {
+    "id": 94,
+    "name": "Генічеськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Henichesk_gerb.png/50px-Henichesk_gerb.png"
+  },
+  {
+    "id": 95,
+    "name": "Герца",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Interbelic_Herta_CoA.png/50px-Interbelic_Herta_CoA.png"
+  },
+  {
+    "id": 96,
+    "name": "Гірник",
+    "url": ""
+  },
+  {
+    "id": 97,
+    "name": "Гірське",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hirske_gerb.jpg/50px-Hirske_gerb.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Глиняни",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Coat_Of_Arms_of_Hlyniany.png/50px-Coat_Of_Arms_of_Hlyniany.png"
+  },
+  {
+    "id": 99,
+    "name": "Глобине",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Hlobyne_gerb.png/50px-Hlobyne_gerb.png"
+  },
+  {
+    "id": 100,
+    "name": "Глухів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hlukhiv_gerb.png/50px-Hlukhiv_gerb.png"
+  },
+  {
+    "id": 101,
+    "name": "Гнівань",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Hnivan_gerb.png/50px-Hnivan_gerb.png"
+  },
+  {
+    "id": 102,
+    "name": "Гола Пристань",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Coat_of_Arms_of_Hola_Prystan.svg/50px-Coat_of_Arms_of_Hola_Prystan.svg.png"
+  },
+  {
+    "id": 103,
+    "name": "Голубівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kirovsk_lg_gerb.png/50px-Kirovsk_lg_gerb.png"
+  },
+  {
+    "id": 104,
+    "name": "Горішні Плавні",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Coat_of_Arms_of_Horishni_Plavni.svg/50px-Coat_of_Arms_of_Horishni_Plavni.svg.png"
+  },
+  {
+    "id": 105,
+    "name": "Горлівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Coat_of_Arms_of_Horlivka.png/50px-Coat_of_Arms_of_Horlivka.png"
+  },
+  {
+    "id": 106,
+    "name": "Городенка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/COA_of_Horodenka.png/50px-COA_of_Horodenka.png"
+  },
+  {
+    "id": 107,
+    "name": "Городище",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/%D0%93%D0%B5%D1%80%D0%B1_%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D1%89%D0%B0.jpg/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D1%89%D0%B0.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Городня",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Coat_of_arms_of_Horodnia.svg/50px-Coat_of_arms_of_Horodnia.svg.png"
+  },
+  {
+    "id": 109,
+    "name": "Городок",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/COA_of_Horodok_in_Lviv_Oblast.svg/50px-COA_of_Horodok_in_Lviv_Oblast.svg.png"
+  },
+  {
+    "id": 110,
+    "name": "Городок",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Horodok_khm_gerb.png/50px-Horodok_khm_gerb.png"
+  },
+  {
+    "id": 111,
+    "name": "Горохів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/be/UKR_Horochiw_COA.png/50px-UKR_Horochiw_COA.png"
+  },
+  {
+    "id": 112,
+    "name": "Гребінка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Coat_of_arms_of_Hrebinka.jpg/50px-Coat_of_arms_of_Hrebinka.jpg"
+  },
+  {
+    "id": 113,
+    "name": "Гуляйполе",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Coats_of_arms_of_Hulaypole.svg/50px-Coats_of_arms_of_Hulaypole.svg.png"
+  },
+  {
+    "id": 114,
+    "name": "Дебальцеве",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Gerb-gor-debalcevo.gif/50px-Gerb-gor-debalcevo.gif"
+  },
+  {
+    "id": 115,
+    "name": "Деражня",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Coat_of_arms_Derazhya_%28Soviet%29.PNG/50px-Coat_of_arms_Derazhya_%28Soviet%29.PNG"
+  },
+  {
+    "id": 116,
+    "name": "Дергачі",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Derhatschi_Wappen.png/50px-Derhatschi_Wappen.png"
+  },
+  {
+    "id": 117,
+    "name": "Джанкой",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/UHT_Dzhankoi.svg/50px-UHT_Dzhankoi.svg.png"
+  },
+  {
+    "id": 118,
+    "name": "Дніпро",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Coat_of_arms_of_Dnipro.svg/50px-Coat_of_arms_of_Dnipro.svg.png"
+  },
+  {
+    "id": 119,
+    "name": "Дніпрорудне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gerb_dnipropydne.png/50px-Gerb_dnipropydne.png"
+  },
+  {
+    "id": 120,
+    "name": "Добромиль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dobromyl_coat_of_arms_%28UHT%29.svg/50px-Dobromyl_coat_of_arms_%28UHT%29.svg.png"
+  },
+  {
+    "id": 121,
+    "name": "Добропілля",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Dobropillya_gerb.png/50px-Dobropillya_gerb.png"
+  },
+  {
+    "id": 122,
+    "name": "Довжанськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Coat_of_Arms_of_Dovzhansk_Luhansk_Oblast.gif/50px-Coat_of_Arms_of_Dovzhansk_Luhansk_Oblast.gif"
+  },
+  {
+    "id": 123,
+    "name": "Докучаєвськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Coat_of_arms_of_Dokuchaievsk.gif/50px-Coat_of_arms_of_Dokuchaievsk.gif"
+  },
+  {
+    "id": 124,
+    "name": "Долина Долина",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Coat_of_Arms_of_Dolyna.svg/50px-Coat_of_Arms_of_Dolyna.svg.png"
+  },
+  {
+    "id": 125,
+    "name": "Долинська",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Wappen_Dolynska.png/50px-Wappen_Dolynska.png"
+  },
+  {
+    "id": 126,
+    "name": "Донецьк",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Greater_Coat_of_Arms_of_Donetsk_%281995%29.svg/50px-Greater_Coat_of_Arms_of_Donetsk_%281995%29.svg.png"
+  },
+  {
+    "id": 127,
+    "name": "Дрогобич",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Coat_of_Arms_of_Drohobych.svg/50px-Coat_of_Arms_of_Drohobych.svg.png"
+  },
+  {
+    "id": 128,
+    "name": "Дружба",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Druzhba_gerb.png/50px-Druzhba_gerb.png"
+  },
+  {
+    "id": 129,
+    "name": "Дружківка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Druzhkovka_gerb.png/50px-Druzhkovka_gerb.png"
+  },
+  {
+    "id": 130,
+    "name": "Дубляни",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/%D0%94%D1%83%D0%B1%D0%BB%D1%8F%D0%BD%D0%B8_%D0%B3%D0%B5%D1%80%D0%B1.png/50px-%D0%94%D1%83%D0%B1%D0%BB%D1%8F%D0%BD%D0%B8_%D0%B3%D0%B5%D1%80%D0%B1.png"
+  },
+  {
+    "id": 131,
+    "name": "Дубно",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Coat_of_arms_Dubno.svg/50px-Coat_of_arms_Dubno.svg.png"
+  },
+  {
+    "id": 132,
+    "name": "Дубровиця",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Dombrv_s.png/50px-Dombrv_s.png"
+  },
+  {
+    "id": 133,
+    "name": "Дунаївці",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Dunaivtsi_modern_COA.png/50px-Dunaivtsi_modern_COA.png"
+  },
+  {
+    "id": 134,
+    "name": "Енергодар",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Coat_of_Arms_Enerhodar.png/50px-Coat_of_Arms_Enerhodar.png"
+  },
+  {
+    "id": 135,
+    "name": "Євпаторія",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/COA_Yevpatoriia%2C_Crimea%2C_Ukraine.svg/50px-COA_Yevpatoriia%2C_Crimea%2C_Ukraine.svg.png"
+  },
+  {
+    "id": 136,
+    "name": "Єнакієве",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Coat_of_Arms_of_Yenakiieve.svg/50px-Coat_of_Arms_of_Yenakiieve.svg.png"
+  },
+  {
+    "id": 137,
+    "name": "Жашків",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Zhashkiv_gerb_new.png/50px-Zhashkiv_gerb_new.png"
+  },
+  {
+    "id": 138,
+    "name": "Жданівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Zhdanivka_gerb.png/50px-Zhdanivka_gerb.png"
+  },
+  {
+    "id": 139,
+    "name": "Жидачів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Zhydachiv_Coat_of_arms.jpg/50px-Zhydachiv_Coat_of_arms.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Житомир",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Coat_of_Arms_of_Zhytomyr.svg/50px-Coat_of_Arms_of_Zhytomyr.svg.png"
+  },
+  {
+    "id": 141,
+    "name": "Жмеринка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coat_of_arms_zhmerynka.PNG/50px-Coat_of_arms_zhmerynka.PNG"
+  },
+  {
+    "id": 142,
+    "name": "Жовква",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Zhovkva01.png/50px-Zhovkva01.png"
+  },
+  {
+    "id": 143,
+    "name": "Жовті Води",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Coat_of_Arms_of_Zhovti_Vody.svg/50px-Coat_of_Arms_of_Zhovti_Vody.svg.png"
+  },
+  {
+    "id": 144,
+    "name": "Заводське",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zavodske_gerb.png/50px-Zavodske_gerb.png"
+  },
+  {
+    "id": 145,
+    "name": "Залізне",
+    "url": ""
+  },
+  {
+    "id": 146,
+    "name": "Заліщики",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/POL_Zaleszczyki_COA.svg/50px-POL_Zaleszczyki_COA.svg.png"
+  },
+  {
+    "id": 147,
+    "name": "Запоріжжя",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/%D0%93%D0%B5%D1%80%D0%B1_%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%8C%D1%8F_2003_%D0%B3%D0%BE%D0%B4%D0%B0.svg/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%8C%D1%8F_2003_%D0%B3%D0%BE%D0%B4%D0%B0.svg.png"
+  },
+  {
+    "id": 148,
+    "name": "Заставна",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Zastav_s.png/50px-Zastav_s.png"
+  },
+  {
+    "id": 149,
+    "name": "Збараж",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Zbarag_s.png/50px-Zbarag_s.png"
+  },
+  {
+    "id": 150,
+    "name": "Зборів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Zboriv_gerb.png/50px-Zboriv_gerb.png"
+  },
+  {
+    "id": 151,
+    "name": "Звенигородка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Zvenyhorodka_gerb.png/50px-Zvenyhorodka_gerb.png"
+  },
+  {
+    "id": 152,
+    "name": "Звягель",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Coat_of_arms_of_Novohrad-Volynskyi.png/50px-Coat_of_arms_of_Novohrad-Volynskyi.png"
+  },
+  {
+    "id": 153,
+    "name": "Здолбунів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Zdolbuniv_COA.png/50px-Zdolbuniv_COA.png"
+  },
+  {
+    "id": 154,
+    "name": "Зеленодольськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D0%93%D0%B5%D1%80%D0%B1-%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA.jpg/50px-%D0%93%D0%B5%D1%80%D0%B1-%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA.jpg"
+  },
+  {
+    "id": 155,
+    "name": "Зимогір\u0027я",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Zimogirrya_gerb.png/50px-Zimogirrya_gerb.png"
+  },
+  {
+    "id": 156,
+    "name": "Зіньків",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Zinkiv_gerb.png/50px-Zinkiv_gerb.png"
+  },
+  {
+    "id": 157,
+    "name": "Зміїв",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Zmiev_COA_%28Kharkov_Governorate%29_%281803%29.png/50px-Zmiev_COA_%28Kharkov_Governorate%29_%281803%29.png"
+  },
+  {
+    "id": 158,
+    "name": "Знам\u0027янка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Coat_of_Arms_of_Znamyanka.png/50px-Coat_of_Arms_of_Znamyanka.png"
+  },
+  {
+    "id": 159,
+    "name": "Золоте",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Zolote_gerb.png/50px-Zolote_gerb.png"
+  },
+  {
+    "id": 160,
+    "name": "Золотоноша",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Coat_of_Arms_of_Zolotonosha.svg/50px-Coat_of_Arms_of_Zolotonosha.svg.png"
+  },
+  {
+    "id": 161,
+    "name": "Золочів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Zolochiv_COA.PNG/50px-Zolochiv_COA.PNG"
+  },
+  {
+    "id": 162,
+    "name": "зоринськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Zorynsk_gerb.jpg/50px-Zorynsk_gerb.jpg"
+  },
+  {
+    "id": 163,
+    "name": "Зугрес",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/COA_of_Zuhres.png/50px-COA_of_Zuhres.png"
+  },
+  {
+    "id": 164,
+    "name": "Івано-Франківськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ivano-Frankivsk_Coat_of_Arms.png/50px-Ivano-Frankivsk_Coat_of_Arms.png"
+  },
+  {
+    "id": 165,
+    "name": "Ізмаїл",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Izmayil_COA_2016.svg/50px-Izmayil_COA_2016.svg.png"
+  },
+  {
+    "id": 166,
+    "name": "Ізюм",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Coat_of_Arms_of_Izium.svg/50px-Coat_of_Arms_of_Izium.svg.png"
+  },
+  {
+    "id": 167,
+    "name": "Ізяслав",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coat_of_arms_of_Iziaslav.png/50px-Coat_of_arms_of_Iziaslav.png"
+  },
+  {
+    "id": 168,
+    "name": "Іллінці",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Illinci_coat.gif/50px-Illinci_coat.gif"
+  },
+  {
+    "id": 169,
+    "name": "Іловайськ",
+    "url": ""
+  },
+  {
+    "id": 170,
+    "name": "Інкерман",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/44/COA_Inkerman%2C_Sevastopol.svg/50px-COA_Inkerman%2C_Sevastopol.svg.png"
+  },
+  {
+    "id": 171,
+    "name": "Ірміно",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Irmino1_gerb.gif/50px-Irmino1_gerb.gif"
+  },
+  {
+    "id": 172,
+    "name": "Ірпінь",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Irpin_gerb.png/50px-Irpin_gerb.png"
+  },
+  {
+    "id": 173,
+    "name": "Іршава",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Irshava.png/50px-Irshava.png"
+  },
+  {
+    "id": 174,
+    "name": "Ічня",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Coat_of_Arms_of_Ichnyanskiy_raion.svg/50px-Coat_of_Arms_of_Ichnyanskiy_raion.svg.png"
+  },
+  {
+    "id": 175,
+    "name": "Кагарлик",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kagarlyk_gerb.png/50px-Kagarlyk_gerb.png"
+  },
+  {
+    "id": 176,
+    "name": "Кадіївка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Stahanov_coa.png/50px-Stahanov_coa.png"
+  },
+  {
+    "id": 177,
+    "name": "Калинівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/97/%D0%93%D0%B5%D1%80%D0%B1_%D0%BC%D1%96%D1%81%D1%82%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D1%96%D0%B2%D0%BA%D0%B8.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%BC%D1%96%D1%81%D1%82%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D1%96%D0%B2%D0%BA%D0%B8.png"
+  },
+  {
+    "id": 178,
+    "name": "Калуш",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Coat_of_Arms_of_Kalush.svg/50px-Coat_of_Arms_of_Kalush.svg.png"
+  },
+  {
+    "id": 179,
+    "name": "Кальміуське",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Gerb_koms.jpg/50px-Gerb_koms.jpg"
+  },
+  {
+    "id": 180,
+    "name": "Камінь-Каширський",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/%D0%93%D0%B5%D1%80%D0%B1-%D0%9A%D0%B0%D0%BC%D1%96%D0%BD%D1%8C-%D0%9A%D0%B0%D1%88%D0%B8%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9.jpg/50px-%D0%93%D0%B5%D1%80%D0%B1-%D0%9A%D0%B0%D0%BC%D1%96%D0%BD%D1%8C-%D0%9A%D0%B0%D1%88%D0%B8%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9.jpg"
+  },
+  {
+    "id": 181,
+    "name": "Кам\u0027янець-Подільський",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/COA_Kamjantec-Podilsky.svg/50px-COA_Kamjantec-Podilsky.svg.png"
+  },
+  {
+    "id": 182,
+    "name": "Кам\u0027янка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Kam%27yanka_gerb.png/50px-Kam%27yanka_gerb.png"
+  },
+  {
+    "id": 183,
+    "name": "Кам\u0027янка-Бузька",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Coat_of_Arms_of_Kamianka-Buzka.svg/50px-Coat_of_Arms_of_Kamianka-Buzka.svg.png"
+  },
+  {
+    "id": 184,
+    "name": "Кам\u0027янка-Дніпровська",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kamyanka_Dniprovska_gerb.png/50px-Kamyanka_Dniprovska_gerb.png"
+  },
+  {
+    "id": 185,
+    "name": "Кам\u0027янське",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Coat_of_Arms_of_Kamianske.png/50px-Coat_of_Arms_of_Kamianske.png"
+  },
+  {
+    "id": 186,
+    "name": "Канів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/KanivCOA.png/50px-KanivCOA.png"
+  },
+  {
+    "id": 187,
+    "name": "Карлівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Karlivka.png/50px-Karlivka.png"
+  },
+  {
+    "id": 188,
+    "name": "Каховка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/COA_of_Kakhovka.svg/50px-COA_of_Kakhovka.svg.png"
+  },
+  {
+    "id": 189,
+    "name": "Керч",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kerch_coat.svg/50px-Kerch_coat.svg.png"
+  },
+  {
+    "id": 190,
+    "name": "Київ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/COA_of_Kyiv_Kurovskyi.svg/50px-COA_of_Kyiv_Kurovskyi.svg.png"
+  },
+  {
+    "id": 191,
+    "name": "Кипуче",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Coat_of_Arms_of_Artemivsk_%28Luhansk_Oblast%29.png/50px-Coat_of_Arms_of_Artemivsk_%28Luhansk_Oblast%29.png"
+  },
+  {
+    "id": 192,
+    "name": "Ківерці",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kiverci_gerb.png/50px-Kiverci_gerb.png"
+  },
+  {
+    "id": 193,
+    "name": "Кілія",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kilia.png/50px-Kilia.png"
+  },
+  {
+    "id": 194,
+    "name": "Кіцмань",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Kitsman_herb.png/50px-Kitsman_herb.png"
+  },
+  {
+    "id": 195,
+    "name": "Кобеляки",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Kobelj_s.png/50px-Kobelj_s.png"
+  },
+  {
+    "id": 196,
+    "name": "Ковель",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Coat_of_Arms_of_Kovel.svg/50px-Coat_of_Arms_of_Kovel.svg.png"
+  },
+  {
+    "id": 197,
+    "name": "Кодима",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Kodima_gerb.png/50px-Kodima_gerb.png"
+  },
+  {
+    "id": 198,
+    "name": "Козятин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Kozjatin_gerb.png/50px-Kozjatin_gerb.png"
+  },
+  {
+    "id": 199,
+    "name": "Коломия",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kolomyia.gerb.gif/50px-Kolomyia.gerb.gif"
+  },
+  {
+    "id": 200,
+    "name": "Комарно",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/%D0%9A%D0%BE%D0%BC%D0%B0%D1%80%D0%BD%D0%BE_%D0%B3%D0%B5%D1%80%D0%B1.png/50px-%D0%9A%D0%BE%D0%BC%D0%B0%D1%80%D0%BD%D0%BE_%D0%B3%D0%B5%D1%80%D0%B1.png"
+  },
+  {
+    "id": 201,
+    "name": "Конотоп",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Coat_of_arms_of_Konotop.svg/50px-Coat_of_arms_of_Konotop.svg.png"
+  },
+  {
+    "id": 202,
+    "name": "Копичинці",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kopychyn1.gif/50px-Kopychyn1.gif"
+  },
+  {
+    "id": 203,
+    "name": "Корець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/COA_Kopets.png/50px-COA_Kopets.png"
+  },
+  {
+    "id": 204,
+    "name": "Коростень",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Korosten_misto_gerb.png/50px-Korosten_misto_gerb.png"
+  },
+  {
+    "id": 205,
+    "name": "Коростишів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Korostyshiv_coat_of_arms.svg/50px-Korostyshiv_coat_of_arms.svg.png"
+  },
+  {
+    "id": 206,
+    "name": "Корсунь-Шевченківський",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Korsun-Shevchenkivskyi_COA.png/50px-Korsun-Shevchenkivskyi_COA.png"
+  },
+  {
+    "id": 207,
+    "name": "Корюківка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kuryukivka_gerb.png/50px-Kuryukivka_gerb.png"
+  },
+  {
+    "id": 208,
+    "name": "Косів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kos%C3%B3w_COA.png/50px-Kos%C3%B3w_COA.png"
+  },
+  {
+    "id": 209,
+    "name": "Костопіль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kostopil_coat_of_arms.png/50px-Kostopil_coat_of_arms.png"
+  },
+  {
+    "id": 210,
+    "name": "Костянтинівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Kostiantynivka_herb.png/50px-Kostiantynivka_herb.png"
+  },
+  {
+    "id": 211,
+    "name": "Краматорськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kramatorsk_gerb.png/50px-Kramatorsk_gerb.png"
+  },
+  {
+    "id": 212,
+    "name": "Красилів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Krasyliv_gerb.png/50px-Krasyliv_gerb.png"
+  },
+  {
+    "id": 213,
+    "name": "Красногорівка",
+    "url": ""
+  },
+  {
+    "id": 214,
+    "name": "Красноград",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/%D0%93%D0%B5%D1%80%D0%B1_%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%B0_%28Small%29.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%B0_%28Small%29.png"
+  },
+  {
+    "id": 215,
+    "name": "Кременець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Coat_of_Arms_of_Kremenets.svg/50px-Coat_of_Arms_of_Kremenets.svg.png"
+  },
+  {
+    "id": 216,
+    "name": "Кременчук",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Coat_of_Arms_of_Kremenchuk.svg/50px-Coat_of_Arms_of_Kremenchuk.svg.png"
+  },
+  {
+    "id": 217,
+    "name": "Кремінна",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Kreminna_gerb.png/50px-Kreminna_gerb.png"
+  },
+  {
+    "id": 218,
+    "name": "Кривий Ріг",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_Arms_of_Kryvyy_Rih.png/50px-Coat_of_Arms_of_Kryvyy_Rih.png"
+  },
+  {
+    "id": 219,
+    "name": "Кролевець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Krolevets_herb.png/50px-Krolevets_herb.png"
+  },
+  {
+    "id": 220,
+    "name": "Кропивницький",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Coat_of_Arms_of_Kropyvnytskyi.png/50px-Coat_of_Arms_of_Kropyvnytskyi.png"
+  },
+  {
+    "id": 221,
+    "name": "Куп\u0027янськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kupyansk-herb.png/50px-Kupyansk-herb.png"
+  },
+  {
+    "id": 222,
+    "name": "Курахове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Coat_of_arms_of_Kurakhove.png/50px-Coat_of_arms_of_Kurakhove.png"
+  },
+  {
+    "id": 223,
+    "name": "Ладижин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ladyzhyn_gerb.png/50px-Ladyzhyn_gerb.png"
+  },
+  {
+    "id": 224,
+    "name": "Ланівці",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Emblem-Lanivtsi-12072017.png/50px-Emblem-Lanivtsi-12072017.png"
+  },
+  {
+    "id": 225,
+    "name": "Лебедин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Lebedyn_gerb.png/50px-Lebedyn_gerb.png"
+  },
+  {
+    "id": 226,
+    "name": "Лиман Лиман",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Lyman_otg_herb.png/50px-Lyman_otg_herb.png"
+  },
+  {
+    "id": 227,
+    "name": "Липовець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Coat_of_Arms_Lypovets.png/50px-Coat_of_Arms_Lypovets.png"
+  },
+  {
+    "id": 228,
+    "name": "Лисичанськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Coat_of_Arms_of_Lysychansk.svg/50px-Coat_of_Arms_of_Lysychansk.svg.png"
+  },
+  {
+    "id": 229,
+    "name": "Лозова",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/UKR_%D0%9B%D0%BE%D0%B7%D0%BE%D0%B2%D0%B0%CC%81_COA.gif/50px-UKR_%D0%9B%D0%BE%D0%B7%D0%BE%D0%B2%D0%B0%CC%81_COA.gif"
+  },
+  {
+    "id": 230,
+    "name": "Лохвиця",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lohvytsya_gerb.png/50px-Lohvytsya_gerb.png"
+  },
+  {
+    "id": 231,
+    "name": "Лубни",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lubny_coat_of_arms.png/50px-Lubny_coat_of_arms.png"
+  },
+  {
+    "id": 232,
+    "name": "Луганськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Coat_of_arms_of_Luhansk.svg/50px-Coat_of_arms_of_Luhansk.svg.png"
+  },
+  {
+    "id": 233,
+    "name": "Лутугине",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/%D0%93%D0%B5%D1%80%D0%B1_%D0%9B%D1%83%D1%82%D1%83%D0%B3%D0%B8%D0%BD%D0%BE.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%9B%D1%83%D1%82%D1%83%D0%B3%D0%B8%D0%BD%D0%BE.png"
+  },
+  {
+    "id": 234,
+    "name": "Луцьк",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Herb_Lutsk.svg/50px-Herb_Lutsk.svg.png"
+  },
+  {
+    "id": 235,
+    "name": "Львів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%B3%D0%B5%D1%80%D0%B1_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D0%B0.png/50px-%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%B3%D0%B5%D1%80%D0%B1_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D0%B0.png"
+  },
+  {
+    "id": 236,
+    "name": "Любомль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/%D0%93%D0%B5%D1%80%D0%B1_%D0%9B%D1%8E%D0%B1%D0%BE%D0%BC%D0%BB%D1%8F.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%9B%D1%8E%D0%B1%D0%BE%D0%BC%D0%BB%D1%8F.png"
+  },
+  {
+    "id": 237,
+    "name": "Люботин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/GerbLubotina.jpg/50px-GerbLubotina.jpg"
+  },
+  {
+    "id": 238,
+    "name": "Макіївка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%93%D0%B5%D1%80%D0%B1_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B5%D0%B2%D0%BA%D0%B8_%281690%29.jpg/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B5%D0%B2%D0%BA%D0%B8_%281690%29.jpg"
+  },
+  {
+    "id": 239,
+    "name": "Мала Виска",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mala_vyska_s.png/50px-Mala_vyska_s.png"
+  },
+  {
+    "id": 240,
+    "name": "Малин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Malyn_gerb.png/50px-Malyn_gerb.png"
+  },
+  {
+    "id": 241,
+    "name": "Марганець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Marganec_gerb.png/50px-Marganec_gerb.png"
+  },
+  {
+    "id": 242,
+    "name": "Маріуполь",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mariupol_gerb.png/50px-Mariupol_gerb.png"
+  },
+  {
+    "id": 243,
+    "name": "Мар\u0027їнка",
+    "url": ""
+  },
+  {
+    "id": 244,
+    "name": "Мелітополь",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Melitopol_COA.png/50px-Melitopol_COA.png"
+  },
+  {
+    "id": 245,
+    "name": "Мена Мена",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Mena_gerb.png/50px-Mena_gerb.png"
+  },
+  {
+    "id": 246,
+    "name": "Мерефа",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Merefa_gerb.png/50px-Merefa_gerb.png"
+  },
+  {
+    "id": 247,
+    "name": "Миколаїв",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2_%E2%80%94%D0%9B%D1%8C%D0%B2%D1%96%D0%B2_%D0%B3%D0%B5%D1%80%D0%B1.png/50px-%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2_%E2%80%94%D0%9B%D1%8C%D0%B2%D1%96%D0%B2_%D0%B3%D0%B5%D1%80%D0%B1.png"
+  },
+  {
+    "id": 248,
+    "name": "Миколаїв",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Coat_of_arms_of_Nikolayev.svg/50px-Coat_of_arms_of_Nikolayev.svg.png"
+  },
+  {
+    "id": 249,
+    "name": "Миколаївка Миколаївка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Nikolaevka_city_coa.png/50px-Nikolaevka_city_coa.png"
+  },
+  {
+    "id": 250,
+    "name": "Миргород",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/UKR_COA_of_Myrhorod.svg/50px-UKR_COA_of_Myrhorod.svg.png"
+  },
+  {
+    "id": 251,
+    "name": "Мирноград",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Myrnohrad_gerb_big.png/50px-Myrnohrad_gerb_big.png"
+  },
+  {
+    "id": 252,
+    "name": "Миронівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Mironivka_gerb.png/50px-Mironivka_gerb.png"
+  },
+  {
+    "id": 253,
+    "name": "Міусинськ",
+    "url": ""
+  },
+  {
+    "id": 254,
+    "name": "Могилів-Подільський",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Mohyliv_coat_of_arms.png/50px-Mohyliv_coat_of_arms.png"
+  },
+  {
+    "id": 255,
+    "name": "Молодогвардійськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Coat_of_Arms_of_Molodogvardijsk.png/50px-Coat_of_Arms_of_Molodogvardijsk.png"
+  },
+  {
+    "id": 256,
+    "name": "Молочанськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Molochansk_gerb.png/50px-Molochansk_gerb.png"
+  },
+  {
+    "id": 257,
+    "name": "Монастириська",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/COA_of_Monastyryska.png/50px-COA_of_Monastyryska.png"
+  },
+  {
+    "id": 258,
+    "name": "Монастирище",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Monastyryshskiy_rayon_gerb.png/50px-Monastyryshskiy_rayon_gerb.png"
+  },
+  {
+    "id": 259,
+    "name": "Моршин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Coat_of_Arms_of_Morshyn.svg/50px-Coat_of_Arms_of_Morshyn.svg.png"
+  },
+  {
+    "id": 260,
+    "name": "Моспине",
+    "url": ""
+  },
+  {
+    "id": 261,
+    "name": "Мостиська",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/%D0%9C%D0%BE%D1%81%D1%82%D0%B8%D1%81%D1%8C%D0%BA%D0%B0_%D0%B3%D0%B5%D1%80%D0%B1.png/50px-%D0%9C%D0%BE%D1%81%D1%82%D0%B8%D1%81%D1%8C%D0%BA%D0%B0_%D0%B3%D0%B5%D1%80%D0%B1.png"
+  },
+  {
+    "id": 262,
+    "name": "Мукачево",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Mukachevo_gerb.png/50px-Mukachevo_gerb.png"
+  },
+  {
+    "id": 263,
+    "name": "Надвірна",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Nadvirna_COA.png/50px-Nadvirna_COA.png"
+  },
+  {
+    "id": 264,
+    "name": "Немирів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Nemyriv_gerb.png/50px-Nemyriv_gerb.png"
+  },
+  {
+    "id": 265,
+    "name": "Нетішин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Netishyn_Coat.png/50px-Netishyn_Coat.png"
+  },
+  {
+    "id": 266,
+    "name": "Ніжин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Nizhyn_gerb.png/50px-Nizhyn_gerb.png"
+  },
+  {
+    "id": 267,
+    "name": "Нікополь",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nikopol_city_gerb.png/50px-Nikopol_city_gerb.png"
+  },
+  {
+    "id": 268,
+    "name": "Нова Каховка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_Arms_of_Nova_Kakhovka.png/50px-Coat_of_Arms_of_Nova_Kakhovka.png"
+  },
+  {
+    "id": 269,
+    "name": "Нова Одеса",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nova_odesa_gerb.png/50px-Nova_odesa_gerb.png"
+  },
+  {
+    "id": 270,
+    "name": "Новгород-Сіверський",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Novhorod-Siverskiy_herb.png/50px-Novhorod-Siverskiy_herb.png"
+  },
+  {
+    "id": 271,
+    "name": "Новий Буг",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/72/COA_of_Novyj_Buh.png/50px-COA_of_Novyj_Buh.png"
+  },
+  {
+    "id": 272,
+    "name": "Новий Калинів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Novyj_kalyniv_gerb.png/50px-Novyj_kalyniv_gerb.png"
+  },
+  {
+    "id": 273,
+    "name": "Новий Розділ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/76/Coat_of_Arms_of_Novyi_Rozdil.svg/50px-Coat_of_Arms_of_Novyi_Rozdil.svg.png"
+  },
+  {
+    "id": 274,
+    "name": "Новоазовськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Novazv_s.png/50px-Novazv_s.png"
+  },
+  {
+    "id": 275,
+    "name": "Нововолинськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_Arms_of_Novovolynsk.svg/50px-Coat_of_Arms_of_Novovolynsk.svg.png"
+  },
+  {
+    "id": 276,
+    "name": "Новогродівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Novohrodivka_gerb.png/50px-Novohrodivka_gerb.png"
+  },
+  {
+    "id": 277,
+    "name": "Новодністровськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Coat_of_Arms_of_Novodnistrovsk.svg/50px-Coat_of_Arms_of_Novodnistrovsk.svg.png"
+  },
+  {
+    "id": 278,
+    "name": "Новодружеськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Novodruzhesk_gerb.jpg/50px-Novodruzhesk_gerb.jpg"
+  },
+  {
+    "id": 279,
+    "name": "Новомиргород",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Novomyrhorod_gerb.png/50px-Novomyrhorod_gerb.png"
+  },
+  {
+    "id": 280,
+    "name": "Новомосковськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Coat_of_Arms_of_Novomoskovsk.svg/50px-Coat_of_Arms_of_Novomoskovsk.svg.png"
+  },
+  {
+    "id": 281,
+    "name": "Новоселиця",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coat_of_arms_of_Novoselytsia.png/50px-Coat_of_arms_of_Novoselytsia.png"
+  },
+  {
+    "id": 282,
+    "name": "Новоукраїнка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Novoukrainka_h.png/50px-Novoukrainka_h.png"
+  },
+  {
+    "id": 283,
+    "name": "Новояворівськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Novoyavorivsk_coat_of_arms.svg/50px-Novoyavorivsk_coat_of_arms.svg.png"
+  },
+  {
+    "id": 284,
+    "name": "Носівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nosivka_new_gerb.gif/50px-Nosivka_new_gerb.gif"
+  },
+  {
+    "id": 285,
+    "name": "Обухів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Obukhiv_gerb.png/50px-Obukhiv_gerb.png"
+  },
+  {
+    "id": 286,
+    "name": "Овруч",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ovruch_gerb.png/50px-Ovruch_gerb.png"
+  },
+  {
+    "id": 287,
+    "name": "Одеса",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_Arms_of_Odessa.svg/50px-Coat_of_Arms_of_Odessa.svg.png"
+  },
+  {
+    "id": 288,
+    "name": "Олевськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/COA_of_Olevsk.png/50px-COA_of_Olevsk.png"
+  },
+  {
+    "id": 289,
+    "name": "Олександрівськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Oleksandrivsk_lg_gerb_new.png/50px-Oleksandrivsk_lg_gerb_new.png"
+  },
+  {
+    "id": 290,
+    "name": "Олександрія",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Coat_of_Arms_of_Oleksandriia.gif/50px-Coat_of_Arms_of_Oleksandriia.gif"
+  },
+  {
+    "id": 291,
+    "name": "Олешки",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Oleshky_herb.png/50px-Oleshky_herb.png"
+  },
+  {
+    "id": 292,
+    "name": "Оріхів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Orikhiv_COA.svg/50px-Orikhiv_COA.svg.png"
+  },
+  {
+    "id": 293,
+    "name": "Остер Остер",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/%D0%93%D0%B5%D1%80%D0%B1_%D0%BC.%D0%9E%D1%81%D1%82%D0%B5%D1%80.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%BC.%D0%9E%D1%81%D1%82%D0%B5%D1%80.png"
+  },
+  {
+    "id": 294,
+    "name": "Острог",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Coat_of_Arms_of_Ostroh.svg/50px-Coat_of_Arms_of_Ostroh.svg.png"
+  },
+  {
+    "id": 295,
+    "name": "Охтирка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Akhtyrka_COA_%28Kharkov_Governorate%29_%281781%29.png/50px-Akhtyrka_COA_%28Kharkov_Governorate%29_%281781%29.png"
+  },
+  {
+    "id": 296,
+    "name": "Очаків",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Ochakiv_gerb.png/50px-Ochakiv_gerb.png"
+  },
+  {
+    "id": 297,
+    "name": "Павлоград",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Coat_of_arms_of_Pavlohrad.png/50px-Coat_of_arms_of_Pavlohrad.png"
+  },
+  {
+    "id": 298,
+    "name": "Первомайськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/PervomayskUA.svg/50px-PervomayskUA.svg.png"
+  },
+  {
+    "id": 299,
+    "name": "Первомайськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pervomaisk_gerb.png/50px-Pervomaisk_gerb.png"
+  },
+  {
+    "id": 300,
+    "name": "Первомайський",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/1may_har_gerb.png/50px-1may_har_gerb.png"
+  },
+  {
+    "id": 301,
+    "name": "Перевальськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pereval.png/50px-Pereval.png"
+  },
+  {
+    "id": 302,
+    "name": "Перемишляни",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B8%D1%88%D0%BB%D1%8F%D0%BD%D0%B8_%D0%B3%D0%B5%D1%80%D0%B1.png/50px-%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B8%D1%88%D0%BB%D1%8F%D0%BD%D0%B8_%D0%B3%D0%B5%D1%80%D0%B1.png"
+  },
+  {
+    "id": 303,
+    "name": "Перечин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Perech_s.png/50px-Perech_s.png"
+  },
+  {
+    "id": 304,
+    "name": "Перещепине",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pereshcepyne_gerb.png/50px-Pereshcepyne_gerb.png"
+  },
+  {
+    "id": 305,
+    "name": "Переяслав",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Coat_of_arms_of_Pereiaslav.svg/50px-Coat_of_arms_of_Pereiaslav.svg.png"
+  },
+  {
+    "id": 306,
+    "name": "Першотравенськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Coat_of_Arms_of_Pershotravensk.svg/50px-Coat_of_Arms_of_Pershotravensk.svg.png"
+  },
+  {
+    "id": 307,
+    "name": "Петрово-Красносілля",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Petr-krasonos_gerb.png/50px-Petr-krasonos_gerb.png"
+  },
+  {
+    "id": 308,
+    "name": "Пирятин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pyratyn_coat.png/50px-Pyratyn_coat.png"
+  },
+  {
+    "id": 309,
+    "name": "Південне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/13/Pivdenne_hr_gerb.png/50px-Pivdenne_hr_gerb.png"
+  },
+  {
+    "id": 310,
+    "name": "Підгайці",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/COA_of_Pidhaitsi.png/50px-COA_of_Pidhaitsi.png"
+  },
+  {
+    "id": 311,
+    "name": "Підгородне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Pidgorodne_gerb.png/50px-Pidgorodne_gerb.png"
+  },
+  {
+    "id": 312,
+    "name": "Погребище",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pohrebysche-Vinnytsa-Ukraine-Coat-of-Arms.PNG/50px-Pohrebysche-Vinnytsa-Ukraine-Coat-of-Arms.PNG"
+  },
+  {
+    "id": 313,
+    "name": "Подільськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Podilsk_COA.png/50px-Podilsk_COA.png"
+  },
+  {
+    "id": 314,
+    "name": "Покров",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Pokrov_COA.png/50px-Pokrov_COA.png"
+  },
+  {
+    "id": 315,
+    "name": "Покровськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pokrovsk_gerb.png/50px-Pokrovsk_gerb.png"
+  },
+  {
+    "id": 316,
+    "name": "Пологи",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Polohy_COA.svg/50px-Polohy_COA.svg.png"
+  },
+  {
+    "id": 317,
+    "name": "Полонне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Polonne-gerb.png/50px-Polonne-gerb.png"
+  },
+  {
+    "id": 318,
+    "name": "Полтава",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Poltava_coat.svg/50px-Poltava_coat.svg.png"
+  },
+  {
+    "id": 319,
+    "name": "Помічна",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Pomichna_gerb.PNG/50px-Pomichna_gerb.PNG"
+  },
+  {
+    "id": 320,
+    "name": "Попасна",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/%D0%93%D0%B5%D1%80%D0%B1_%D0%9F%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%9F%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9.png"
+  },
+  {
+    "id": 321,
+    "name": "Почаїв",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Pochaiv_gerb.png/50px-Pochaiv_gerb.png"
+  },
+  {
+    "id": 322,
+    "name": "Привілля",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/%D0%93%D0%B5%D1%80%D0%B1_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%9F%D1%80%D0%B8%D0%B2%D0%BE%D0%BB%D1%8C%D0%B5.gif/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%9F%D1%80%D0%B8%D0%B2%D0%BE%D0%BB%D1%8C%D0%B5.gif"
+  },
+  {
+    "id": 323,
+    "name": "Прилуки",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/%D0%9F%D1%80%D0%B8%D0%BB%D1%83%D0%BA%D0%B8-%D0%B3%D0%B5%D1%80%D0%B1.png/50px-%D0%9F%D1%80%D0%B8%D0%BB%D1%83%D0%BA%D0%B8-%D0%B3%D0%B5%D1%80%D0%B1.png"
+  },
+  {
+    "id": 324,
+    "name": "Приморськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Primorsk_city_coa.png/50px-Primorsk_city_coa.png"
+  },
+  {
+    "id": 325,
+    "name": "Прип\u0027ять",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Coat_of_Arms_of_Pripyat.svg/50px-Coat_of_Arms_of_Pripyat.svg.png"
+  },
+  {
+    "id": 326,
+    "name": "Пустомити",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Pustomyty_gerb.png/50px-Pustomyty_gerb.png"
+  },
+  {
+    "id": 327,
+    "name": "Путивль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/%D0%93%D0%B5%D1%80%D0%B1_%D0%9F%D1%83%D1%82%D0%B8%D0%B2%D0%BB%D1%8F.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%9F%D1%83%D1%82%D0%B8%D0%B2%D0%BB%D1%8F.png"
+  },
+  {
+    "id": 328,
+    "name": "П\u0027ятихатки",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Pyatyhatky_gerb.png/50px-Pyatyhatky_gerb.png"
+  },
+  {
+    "id": 329,
+    "name": "Рава-Руська",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Coat_of_Arms_of_Rava-Rus%27ka.png/50px-Coat_of_Arms_of_Rava-Rus%27ka.png"
+  },
+  {
+    "id": 330,
+    "name": "Радехів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%A0%D0%B0%D0%B4%D0%B5%D1%85%D1%96%D0%B2_%D0%B3%D0%B5%D1%80%D0%B1.png/50px-%D0%A0%D0%B0%D0%B4%D0%B5%D1%85%D1%96%D0%B2_%D0%B3%D0%B5%D1%80%D0%B1.png"
+  },
+  {
+    "id": 331,
+    "name": "Радивилів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/COA_Radvilov.PNG/50px-COA_Radvilov.PNG"
+  },
+  {
+    "id": 332,
+    "name": "Радомишль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Radomyshl_herb.png/50px-Radomyshl_herb.png"
+  },
+  {
+    "id": 333,
+    "name": "Рахів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rahiv_gerb.png/50px-Rahiv_gerb.png"
+  },
+  {
+    "id": 334,
+    "name": "Рені",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Reni_gerb.png/50px-Reni_gerb.png"
+  },
+  {
+    "id": 335,
+    "name": "Решетилівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Reshetylivka_gerb.gif/50px-Reshetylivka_gerb.gif"
+  },
+  {
+    "id": 336,
+    "name": "Ржищів",
+    "url": ""
+  },
+  {
+    "id": 337,
+    "name": "Рівне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_of_arms_Rivne.svg/50px-Coat_of_arms_Rivne.svg.png"
+  },
+  {
+    "id": 338,
+    "name": "Ровеньки",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Coat_of_Arms_of_Rovenki.gif/50px-Coat_of_Arms_of_Rovenki.gif"
+  },
+  {
+    "id": 339,
+    "name": "Рогатин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Rohatyn_gerb.png/50px-Rohatyn_gerb.png"
+  },
+  {
+    "id": 340,
+    "name": "Родинське",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rodynske_new_gerb.png/50px-Rodynske_new_gerb.png"
+  },
+  {
+    "id": 341,
+    "name": "Рожище",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Roghysche_s.gif/50px-Roghysche_s.gif"
+  },
+  {
+    "id": 342,
+    "name": "Роздільна",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Rozdilna_coat_of_arms.png/50px-Rozdilna_coat_of_arms.png"
+  },
+  {
+    "id": 343,
+    "name": "Ромни",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/COA_Romny%2C_Sumska%2C_Ukraine.svg/50px-COA_Romny%2C_Sumska%2C_Ukraine.svg.png"
+  },
+  {
+    "id": 344,
+    "name": "Рубіжне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Rubezhnoe_gerb.png/50px-Rubezhnoe_gerb.png"
+  },
+  {
+    "id": 345,
+    "name": "Рудки",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/H1RUDKY.jpg/50px-H1RUDKY.jpg"
+  },
+  {
+    "id": 346,
+    "name": "Саки",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/COA_Saky%2C_Crimea%2C_Ukraine.svg/50px-COA_Saky%2C_Crimea%2C_Ukraine.svg.png"
+  },
+  {
+    "id": 347,
+    "name": "Самбір",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Coat_of_Arms_of_Sambir.svg/50px-Coat_of_Arms_of_Sambir.svg.png"
+  },
+  {
+    "id": 348,
+    "name": "Сарни",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_arms_of_Sarny.svg/50px-Coat_of_arms_of_Sarny.svg.png"
+  },
+  {
+    "id": 349,
+    "name": "Свалява",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Svalyava_gerb.png/50px-Svalyava_gerb.png"
+  },
+  {
+    "id": 350,
+    "name": "Сватове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Svatovo_coa.png/50px-Svatovo_coa.png"
+  },
+  {
+    "id": 351,
+    "name": "Світловодськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Svitlovodsk_coat_of_arms.png/50px-Svitlovodsk_coat_of_arms.png"
+  },
+  {
+    "id": 352,
+    "name": "Світлодарськ",
+    "url": ""
+  },
+  {
+    "id": 353,
+    "name": "Святогірськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/%D0%93%D0%B5%D1%80%D0%B1_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B0_%28%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%29.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B0_%28%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%29.png"
+  },
+  {
+    "id": 354,
+    "name": "Севастополь",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/COA_of_Sevastopol.svg/50px-COA_of_Sevastopol.svg.png"
+  },
+  {
+    "id": 355,
+    "name": "Селидове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Selidovo_gerb.png/50px-Selidovo_gerb.png"
+  },
+  {
+    "id": 356,
+    "name": "Семенівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Semenivka_city_coa.png/50px-Semenivka_city_coa.png"
+  },
+  {
+    "id": 357,
+    "name": "Середина-Буда",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ser_bud1.png/50px-Ser_bud1.png"
+  },
+  {
+    "id": 358,
+    "name": "Сєвєродонецьк",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Severodoneck_gerb.png/50px-Severodoneck_gerb.png"
+  },
+  {
+    "id": 359,
+    "name": "Синельникове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Coat_of_Arms_of_Synelnykove.svg/50px-Coat_of_Arms_of_Synelnykove.svg.png"
+  },
+  {
+    "id": 360,
+    "name": "Сіверськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/%D0%93%D0%B5%D1%80%D0%B1_%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0.gif/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0.gif"
+  },
+  {
+    "id": 361,
+    "name": "Сімферополь",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/04/COA_Simferopol.svg/50px-COA_Simferopol.svg.png"
+  },
+  {
+    "id": 362,
+    "name": "Скадовськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Skadov_s.png/50px-Skadov_s.png"
+  },
+  {
+    "id": 363,
+    "name": "Скалат",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Skalat_gerb.png/50px-Skalat_gerb.png"
+  },
+  {
+    "id": 364,
+    "name": "Сквира",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Skvyra_gerb.png/50px-Skvyra_gerb.png"
+  },
+  {
+    "id": 365,
+    "name": "Сколе",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Skole_s.gif/50px-Skole_s.gif"
+  },
+  {
+    "id": 366,
+    "name": "Славута",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Slavuta_gerb.png/50px-Slavuta_gerb.png"
+  },
+  {
+    "id": 367,
+    "name": "Славутич",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Slavutich_gerb.png/50px-Slavutich_gerb.png"
+  },
+  {
+    "id": 368,
+    "name": "Слов\u0027янськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Coat_of_Arms_of_Sloviansk.svg/50px-Coat_of_Arms_of_Sloviansk.svg.png"
+  },
+  {
+    "id": 369,
+    "name": "Сміла",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Smela2.gif/50px-Smela2.gif"
+  },
+  {
+    "id": 370,
+    "name": "Снігурівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Coat_of_arms_of_Snihurivka.png/50px-Coat_of_arms_of_Snihurivka.png"
+  },
+  {
+    "id": 371,
+    "name": "Сніжне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Snizhne_coat_of_arms.svg/50px-Snizhne_coat_of_arms.svg.png"
+  },
+  {
+    "id": 372,
+    "name": "Сновськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coat_of_Arms_of_Snovsk_raion.svg/50px-Coat_of_Arms_of_Snovsk_raion.svg.png"
+  },
+  {
+    "id": 373,
+    "name": "Снятин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sniatyn_coa_IIRP.png/50px-Sniatyn_coa_IIRP.png"
+  },
+  {
+    "id": 374,
+    "name": "Сокаль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sokal_coats_of_arms.png/50px-Sokal_coats_of_arms.png"
+  },
+  {
+    "id": 375,
+    "name": "Сокиряни",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sokiryany_gerb.png/50px-Sokiryany_gerb.png"
+  },
+  {
+    "id": 376,
+    "name": "Соледар",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Soledar_coat_of_arms.svg/50px-Soledar_coat_of_arms.svg.png"
+  },
+  {
+    "id": 377,
+    "name": "Сорокине",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/COA_krasnodon.PNG/50px-COA_krasnodon.PNG"
+  },
+  {
+    "id": 378,
+    "name": "Соснівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Sosnivka.lv.gerb.png/50px-Sosnivka.lv.gerb.png"
+  },
+  {
+    "id": 379,
+    "name": "Старий Крим",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/COA_Staryi_Krym%2C_Krym.svg/50px-COA_Staryi_Krym%2C_Krym.svg.png"
+  },
+  {
+    "id": 380,
+    "name": "Старий Самбір",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Coat_of_Arms_of_Staryi_Sambir.svg/50px-Coat_of_Arms_of_Staryi_Sambir.svg.png"
+  },
+  {
+    "id": 381,
+    "name": "Старобільськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Starobilsk_gerb.png/50px-Starobilsk_gerb.png"
+  },
+  {
+    "id": 382,
+    "name": "Старокостянтинів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Coat_of_Arms_of_Starokostiantyniv.png/50px-Coat_of_Arms_of_Starokostiantyniv.png"
+  },
+  {
+    "id": 383,
+    "name": "Стебник",
+    "url": "//upload.wikimedia.org/wikipedia/uk/thumb/0/0a/Stebnyk.gif/50px-Stebnyk.gif"
+  },
+  {
+    "id": 384,
+    "name": "Сторожинець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Storoghinets_Herb.svg/50px-Storoghinets_Herb.svg.png"
+  },
+  {
+    "id": 385,
+    "name": "Стрий",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Coat_Of_Arms_of_Stryi.png/50px-Coat_Of_Arms_of_Stryi.png"
+  },
+  {
+    "id": 386,
+    "name": "Судак",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Russian_COA_of_Sudak_%282015%29.png/50px-Russian_COA_of_Sudak_%282015%29.png"
+  },
+  {
+    "id": 387,
+    "name": "Судова Вишня",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sudova_vyshnya_gerb.png/50px-Sudova_vyshnya_gerb.png"
+  },
+  {
+    "id": 388,
+    "name": "Суми",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sumy-COA.PNG/50px-Sumy-COA.PNG"
+  },
+  {
+    "id": 389,
+    "name": "Суходільськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Suhodol_gerb.gif/50px-Suhodol_gerb.gif"
+  },
+  {
+    "id": 390,
+    "name": "Таврійськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tavriysk_gerb.png/50px-Tavriysk_gerb.png"
+  },
+  {
+    "id": 391,
+    "name": "Тальне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/%D0%93%D0%B5%D1%80%D0%B1_%D0%A2%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE.jpg/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%A2%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE.jpg"
+  },
+  {
+    "id": 392,
+    "name": "Тараща",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tarashcha_COA_%28Kiev_Governorate%29_%281852%29.png/50px-Tarashcha_COA_%28Kiev_Governorate%29_%281852%29.png"
+  },
+  {
+    "id": 393,
+    "name": "Татарбунари",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tatarbunary_gerb.png/50px-Tatarbunary_gerb.png"
+  },
+  {
+    "id": 394,
+    "name": "Теплодар",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_of_Arms_of_Teplodar.svg/50px-Coat_of_Arms_of_Teplodar.svg.png"
+  },
+  {
+    "id": 395,
+    "name": "Теребовля",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_Arms_of_Terebovlia.svg/50px-Coat_of_Arms_of_Terebovlia.svg.png"
+  },
+  {
+    "id": 396,
+    "name": "Тернівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Ternivka_CoA.png/50px-Ternivka_CoA.png"
+  },
+  {
+    "id": 397,
+    "name": "Тернопіль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Coat_of_arms_of_Ternopil.svg/50px-Coat_of_arms_of_Ternopil.svg.png"
+  },
+  {
+    "id": 398,
+    "name": "Тетіїв",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tetiyiv_gerb.png/50px-Tetiyiv_gerb.png"
+  },
+  {
+    "id": 399,
+    "name": "Тисмениця",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Tysmen_gerb.gif/50px-Tysmen_gerb.gif"
+  },
+  {
+    "id": 400,
+    "name": "Тлумач",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tlumach_gerb.png/50px-Tlumach_gerb.png"
+  },
+  {
+    "id": 401,
+    "name": "Токмак",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tokmak_gerb.png/50px-Tokmak_gerb.png"
+  },
+  {
+    "id": 402,
+    "name": "Торецьк",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Toretsk_COA.png/50px-Toretsk_COA.png"
+  },
+  {
+    "id": 403,
+    "name": "Тростянець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Trostyanets_gerb.png/50px-Trostyanets_gerb.png"
+  },
+  {
+    "id": 404,
+    "name": "Трускавець",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Coat_of_Arms_of_Truskavets.svg/50px-Coat_of_Arms_of_Truskavets.svg.png"
+  },
+  {
+    "id": 405,
+    "name": "Тульчин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tulchyn_gerb.png/50px-Tulchyn_gerb.png"
+  },
+  {
+    "id": 406,
+    "name": "Турка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Turka_gerb.png/50px-Turka_gerb.png"
+  },
+  {
+    "id": 407,
+    "name": "Тячів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Tjachv_gerb.png/50px-Tjachv_gerb.png"
+  },
+  {
+    "id": 408,
+    "name": "Угнів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Uhniv_gerb.png/50px-Uhniv_gerb.png"
+  },
+  {
+    "id": 409,
+    "name": "Ужгород",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Coat_of_arms_of_the_city_of_Uzhhorod.svg/50px-Coat_of_arms_of_the_city_of_Uzhhorod.svg.png"
+  },
+  {
+    "id": 410,
+    "name": "Узин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Uzyn_coa.png/50px-Uzyn_coa.png"
+  },
+  {
+    "id": 411,
+    "name": "Українка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ukrainka_gerb.png/50px-Ukrainka_gerb.png"
+  },
+  {
+    "id": 412,
+    "name": "Українськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ukrayinsk_gerb.png/50px-Ukrayinsk_gerb.png"
+  },
+  {
+    "id": 413,
+    "name": "Умань",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Umany_gerb.png/50px-Umany_gerb.png"
+  },
+  {
+    "id": 414,
+    "name": "Устилуг",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/UKR_Ustilug_COA.png/50px-UKR_Ustilug_COA.png"
+  },
+  {
+    "id": 415,
+    "name": "Фастів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Coat_of_Arms_of_Fastiv.png/50px-Coat_of_Arms_of_Fastiv.png"
+  },
+  {
+    "id": 416,
+    "name": "Феодосія",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Feodosiya_coat_of_arms.svg/50px-Feodosiya_coat_of_arms.svg.png"
+  },
+  {
+    "id": 417,
+    "name": "Харків",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coat_of_arms_of_Kharkiv.svg/50px-Coat_of_arms_of_Kharkiv.svg.png"
+  },
+  {
+    "id": 418,
+    "name": "Харцизьк",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Khartsyzsk_city_coa.gif/50px-Khartsyzsk_city_coa.gif"
+  },
+  {
+    "id": 419,
+    "name": "Херсон",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Coat_of_arms_of_Kherson.svg/50px-Coat_of_arms_of_Kherson.svg.png"
+  },
+  {
+    "id": 420,
+    "name": "Хирів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hyrov4.png/50px-Hyrov4.png"
+  },
+  {
+    "id": 421,
+    "name": "Хмельницький",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Coat_of_Arms_of_Khmelnitsky.svg/50px-Coat_of_Arms_of_Khmelnitsky.svg.png"
+  },
+  {
+    "id": 422,
+    "name": "Хмільник",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Hmilnyk_city_gerb.png/50px-Hmilnyk_city_gerb.png"
+  },
+  {
+    "id": 423,
+    "name": "Ходорів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ua-khoa.png/50px-Ua-khoa.png"
+  },
+  {
+    "id": 424,
+    "name": "Хорол",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Khorol_COA_%28Poltava_Governorate%29_%281782%29.png/50px-Khorol_COA_%28Poltava_Governorate%29_%281782%29.png"
+  },
+  {
+    "id": 425,
+    "name": "Хоростків",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Khorostkiv.jpg/50px-Khorostkiv.jpg"
+  },
+  {
+    "id": 426,
+    "name": "Хотин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gerb_of_Khotyn_full.png/50px-Gerb_of_Khotyn_full.png"
+  },
+  {
+    "id": 427,
+    "name": "Хрестівка",
+    "url": ""
+  },
+  {
+    "id": 428,
+    "name": "Христинівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Christinivka_gerb.png/50px-Christinivka_gerb.png"
+  },
+  {
+    "id": 429,
+    "name": "Хрустальний",
+    "url": ""
+  },
+  {
+    "id": 430,
+    "name": "Хуст",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hust_gerb.png/50px-Hust_gerb.png"
+  },
+  {
+    "id": 431,
+    "name": "Часів Яр",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Chasiv_Yar_coat_of_arms_%28lesser%29.svg/50px-Chasiv_Yar_coat_of_arms_%28lesser%29.svg.png"
+  },
+  {
+    "id": 432,
+    "name": "Червоноград",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Coat_of_Arms_of_Chervonohrad.svg/50px-Coat_of_Arms_of_Chervonohrad.svg.png"
+  },
+  {
+    "id": 433,
+    "name": "Черкаси",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/COA_Cherkasy%2C_Cherkaska%2C_Ukraine.svg/50px-COA_Cherkasy%2C_Cherkaska%2C_Ukraine.svg.png"
+  },
+  {
+    "id": 434,
+    "name": "Чернівці",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Coat_of_arms_of_Chernivtsi.svg/50px-Coat_of_arms_of_Chernivtsi.svg.png"
+  },
+  {
+    "id": 435,
+    "name": "Чернігів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Coat_of_Arms_of_Chernihiv.svg/50px-Coat_of_Arms_of_Chernihiv.svg.png"
+  },
+  {
+    "id": 436,
+    "name": "Чигирин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Coat_of_arms_of_Chyhyryn.jpg/50px-Coat_of_arms_of_Chyhyryn.jpg"
+  },
+  {
+    "id": 437,
+    "name": "Чистякове",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Emblem_torez.png/50px-Emblem_torez.png"
+  },
+  {
+    "id": 438,
+    "name": "Чоп",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Coat_of_Arms_of_Chop.svg/50px-Coat_of_Arms_of_Chop.svg.png"
+  },
+  {
+    "id": 439,
+    "name": "Чорнобиль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Herb_Chornobyl.gif/50px-Herb_Chornobyl.gif"
+  },
+  {
+    "id": 440,
+    "name": "Чорноморськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Chornomorsk_gerb.png/50px-Chornomorsk_gerb.png"
+  },
+  {
+    "id": 441,
+    "name": "Чортків",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Coat_of_Arms_Chortkiv.PNG/50px-Coat_of_Arms_Chortkiv.PNG"
+  },
+  {
+    "id": 442,
+    "name": "Чугуїв",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Coat_of_Arms_Chuhuiv.png/50px-Coat_of_Arms_Chuhuiv.png"
+  },
+  {
+    "id": 443,
+    "name": "Чуднів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Cudnov-coat-of-arms.svg/50px-Cudnov-coat-of-arms.svg.png"
+  },
+  {
+    "id": 444,
+    "name": "Шаргород",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%93%D0%B5%D1%80%D0%B1_%D0%A8%D0%B0%D1%80%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%A8%D0%B0%D1%80%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0.png"
+  },
+  {
+    "id": 445,
+    "name": "Шахтарськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Shahtarsk_gerb.png/50px-Shahtarsk_gerb.png"
+  },
+  {
+    "id": 446,
+    "name": "Шепетівка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Coat_of_Arms_of_Shepetivka.svg/50px-Coat_of_Arms_of_Shepetivka.svg.png"
+  },
+  {
+    "id": 447,
+    "name": "Шостка",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_of_Arms_of_Shostka.svg/50px-Coat_of_Arms_of_Shostka.svg.png"
+  },
+  {
+    "id": 448,
+    "name": "Шпола",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coat_of_arms_of_shpola.PNG/50px-Coat_of_arms_of_shpola.PNG"
+  },
+  {
+    "id": 449,
+    "name": "Шумськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Shumsk_gerb.png/50px-Shumsk_gerb.png"
+  },
+  {
+    "id": 450,
+    "name": "Щастя Щастя",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Shchastia.png/50px-Coat_of_arms_of_Shchastia.png"
+  },
+  {
+    "id": 451,
+    "name": "Щолкіне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/COA_Shcholkine.svg/50px-COA_Shcholkine.svg.png"
+  },
+  {
+    "id": 452,
+    "name": "Южне",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%D0%93%D0%B5%D1%80%D0%B1_%D0%BC._%D0%AE%D0%B6%D0%BD%D0%B5%2C_%D0%9E%D0%B4%D0%B5%D1%81%D1%8C%D0%BA%D0%B0_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.png/50px-%D0%93%D0%B5%D1%80%D0%B1_%D0%BC._%D0%AE%D0%B6%D0%BD%D0%B5%2C_%D0%9E%D0%B4%D0%B5%D1%81%D1%8C%D0%BA%D0%B0_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.png"
+  },
+  {
+    "id": 453,
+    "name": "Южноукраїнськ",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yuzhnoukrainsk_gerb.PNG/50px-Yuzhnoukrainsk_gerb.PNG"
+  },
+  {
+    "id": 454,
+    "name": "Яворів",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Yavoriv_gerb.gif/50px-Yavoriv_gerb.gif"
+  },
+  {
+    "id": 455,
+    "name": "Яготин",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Yahotyn-gerb.png/50px-Yahotyn-gerb.png"
+  },
+  {
+    "id": 456,
+    "name": "Ялта",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/COA_Yalta%2C_Krym.svg/50px-COA_Yalta%2C_Krym.svg.png"
+  },
+  {
+    "id": 457,
+    "name": "Ямпіль",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Coat_of_arms_of_Yampil_Vinnitsa_oblast.png/50px-Coat_of_arms_of_Yampil_Vinnitsa_oblast.png"
+  },
+  {
+    "id": 458,
+    "name": "Яремче",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Yaremche_coa.png/50px-Yaremche_coa.png"
+  },
+  {
+    "id": 459,
+    "name": "Яни Капу",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/COA_Krasnoperekopsk.svg/50px-COA_Krasnoperekopsk.svg.png"
+  },
+  {
+    "id": 460,
+    "name": "Ясинувата",
+    "url": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Yasynuvata_herb.png/50px-Yasynuvata_herb.png"
+  }
+]
