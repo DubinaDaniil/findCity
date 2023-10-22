@@ -9,11 +9,13 @@ public class CityDatabaseTests {
         CityDatabase database = new CityDatabase();
 
         database.remove("Авдіївка");
-        database.remove("Алмазна");
+        database.remove(" алмазна ");
 
         List<String> cityNames = database.AllList();
 
         System.out.println(cityNames);
+
+        System.out.println(database.contain("алупка"));
 
     }
 }

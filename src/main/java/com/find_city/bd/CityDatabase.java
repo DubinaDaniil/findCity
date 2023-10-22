@@ -23,7 +23,7 @@ public class CityDatabase {
         int count = 0;
         int countForDelete = 0;
         for (String name : cityNames) {
-            if (CityName.equalsIgnoreCase(name)) {
+            if (CityName.equalsIgnoreCase(name.toLowerCase())) {
                 countForDelete = count;
             }
             count++;
@@ -31,9 +31,19 @@ public class CityDatabase {
         cityNames.remove(countForDelete);
     }
 
+    public boolean contain (String cityName) {
+        boolean result = false;
+
+        for (String name : cityNames) {
+            if (name.equalsIgnoreCase(cityName.toLowerCase())) {
+                result = true;
+                break;
+            }
+        }
+        return result;
+    }
     @Override
     public String toString() {
         return cityNames.toString();
     }
-
 }
