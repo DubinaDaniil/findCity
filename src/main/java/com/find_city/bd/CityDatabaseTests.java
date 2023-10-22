@@ -8,9 +8,12 @@ public class CityDatabaseTests {
 
         CityDatabase database = new CityDatabase();
 
-        List<String> strings = database.AllList();
+        database.remove("Авдіївка");
+        database.remove("Алмазна");
 
-        System.out.println(strings);
+        List<String> cityNames = database.AllList();
+
+        System.out.println(cityNames);
 
     }
 }

@@ -1,21 +1,17 @@
 package com.find_city.bd;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Type;
-import java.util.List;
+import java.util.ArrayList;
 
 public class JsonCityNamesReader implements CityNamesReader {
     private static final Gson GSON = new Gson();
-    Type REVIEW_TYPE = TypeToken.getParameterized(List.class, CityName.class).getType();
     @Override
-    public List<String> read (String path) {
+    public ArrayList<String> read (String path) {
 
-        List<CityName> citiesNames;
+        ArrayList<String> cities = new ArrayList<>();
         StringBuilder stringBuilder = new StringBuilder();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
@@ -29,12 +25,12 @@ public class JsonCityNamesReader implements CityNamesReader {
             e.printStackTrace();
         }
 
-        System.out.println(stringBuilder);
+        CityName [] citiesNames = GSON.fromJson(stringBuilder.toString(), CityName[].class);
 
-        citiesNames = GSON.fromJson(stringBuilder.toString(), REVIEW_TYPE);
+        for (CityName cityName : citiesNames) {
+            cities.add(cityName.getName());
+        }
 
-        return citiesNames.stream()
-                .map(CityName::getName)
-                .toList();
+        return cities;
     }
 }
