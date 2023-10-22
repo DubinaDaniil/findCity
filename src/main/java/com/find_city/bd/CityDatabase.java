@@ -9,17 +9,15 @@ public class CityDatabase {
     private final ArrayList<String> cityNames;
 
     public CityDatabase() {
-
         JsonCityNamesReader reader = new JsonCityNamesReader();
-
         this.cityNames = reader.read(JSON_PATH);
-
     }
+
     public ArrayList<String> AllList () {
         return new ArrayList<>(cityNames);
     }
-    public void remove (String CityName) {
 
+    public void remove (String CityName) {
         int count = 0;
         int countForDelete = 0;
         for (String name : cityNames) {
@@ -42,6 +40,7 @@ public class CityDatabase {
         }
         return result;
     }
+
     @Override
     public String toString() {
         return cityNames.toString();

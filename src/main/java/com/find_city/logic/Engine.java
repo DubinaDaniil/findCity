@@ -5,6 +5,7 @@ import com.find_city.bd.CityDatabase;
 import java.util.ArrayList;
 
 public class Engine {
+
     private static final String END_GAME = "здаюсь";
     private int player = 0;
     private int computer = 0;
@@ -56,6 +57,7 @@ public class Engine {
 
         return result;
     }
+
     private boolean isEndChar(String value) {
         if (this.lastWord.length() == 0) {
             return true;
@@ -69,6 +71,7 @@ public class Engine {
     private void endWindow(int player, int computer) {
         System.out.println("Комп'ютер = " + computer + "\nГравець = " + player);
     }
+
     private void errorWindow(String msg){
         System.out.println("Помилка : " + msg);
     }

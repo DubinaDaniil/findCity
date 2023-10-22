@@ -44,7 +44,7 @@
         </StackPane>
     </VBox>
 
-    <GridPane fx:id="gameArea"
+    <GridPane fx:id="gameAreaGridPane"
               hgap="20"
               vgap="20"
               prefHeight="240"
@@ -63,7 +63,7 @@
               alignment="CENTER">
             <Label text="Введи назву міста"
                    styleClass="enter-city"/>
-            <TextField fx:id="inputText"
+            <TextField fx:id="inputTextTextField"
                        styleClass="input"/>
         </VBox>
         <VBox GridPane.columnIndex="1"
@@ -72,15 +72,14 @@
             <HBox>
                 <Label text="Твоє попереднє місто: "
                        styleClass="enter-city"/>
-                <Label fx:id="prevCity"
-                       text="Харьков"
+                <Label fx:id="prevCityLabel"
                        styleClass="enter-city"/>
             </HBox>
-            <ImageView fx:id="customerCityEmblem"
+            <ImageView fx:id="customerCityEmblemImageView"
                        fitWidth="50"
                        fitHeight="50"/>
         </VBox>
-        <Button fx:id="nextCity"
+        <Button fx:id="nextCityButton"
                 GridPane.columnIndex="0"
                 GridPane.rowIndex="1"
                 text="Зробити хід"
@@ -93,15 +92,70 @@
             <HBox>
                 <Label text="Комп'ютер сказав: "
                        styleClass="enter-city"/>
-                <Label fx:id="pcCity"
-                       text="Харьков"
+                <Label fx:id="pcCityLabel"
                        styleClass="enter-city"/>
             </HBox>
-            <ImageView fx:id="pcCityEmblem"
+            <ImageView fx:id="pcCityEmblemImageView"
                        fitWidth="50"
                        fitHeight="50"/>
         </VBox>
     </GridPane>
+
+    <VBox fx:id="scoreVbox"
+          spacing="60"
+          alignment="CENTER"
+          visible="false">
+        <Label text="Результат гри"
+               styleClass="final-message"/>
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints percentWidth="50"/>
+                <ColumnConstraints percentWidth="50"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints/>
+            </rowConstraints>
+            <VBox GridPane.columnIndex="0"
+                  spacing="10"
+                  alignment="CENTER">
+                <Label text="Ти правильно назвав міст:"
+                       styleClass="score-message"/>
+                <Label fx:id="customerCorrectAnswersLabel"
+                       text="44"
+                       styleClass="correct-answers"/>
+            </VBox>
+            <VBox GridPane.columnIndex="1"
+                  spacing="10"
+                  alignment="CENTER">
+                <Label text="Комп'ютер правильно назвав міст:"
+                       styleClass="score-message"/>
+                <Label fx:id="pcCorrectAnswersLabel"
+                       text="44"
+                       styleClass="correct-answers"/>
+            </VBox>
+        </GridPane>
+    </VBox>
+
+    <VBox fx:id="finalViewVbox"
+          spacing="100"
+          alignment="CENTER"
+          visible="false">
+        <Label fx:id="finalMessageLabel"
+               styleClass="final-message"/>
+        <HBox maxWidth="Infinity">
+            <Button onAction="#onPlayAgain"
+                    text="Грати ще раз"
+                    styleClass="play-again"
+                    prefWidth="150"
+                    prefHeight="40"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <Button onAction="#onExit"
+                    text="Завершити гру"
+                    styleClass="exit"
+                    prefWidth="150"
+                    prefHeight="40"/>
+        </HBox>
+    </VBox>
     <padding>
         <Insets top="20.0"
                 right="20.0"

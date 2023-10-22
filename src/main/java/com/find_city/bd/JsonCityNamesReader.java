@@ -7,7 +7,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class JsonCityNamesReader implements CityNamesReader {
+
     private static final Gson GSON = new Gson();
+
     @Override
     public ArrayList<String> read (String path) {
 

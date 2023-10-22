@@ -2,6 +2,13 @@
     -fx-wrap-text: true;
 }
 
+.button {
+    -fx-font-size: 16;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-font-weight: bold;
+}
+
 .root {
     -fx-background-color: linear-gradient(rgba(8, 8, 239, 0.63), rgba(255, 255, 0, 0.63));
 }
@@ -21,19 +28,13 @@
 }
 
 .start-game {
-    -fx-font-size: 16;
     -fx-background-color: rgba(104, 203, 120, 0.75);
-    -fx-background-radius: 10;
     -fx-border-color: rgba(104, 203, 120, 0.75);
-    -fx-border-radius: 10;
-    -fx-font-weight: bold;
 }
 
 .start-game:pressed {
     -fx-background-color: rgba(104, 203, 120, 0.45);
-    -fx-background-radius: 10;
     -fx-border-color: rgba(53, 101, 62, 0.45);
-    -fx-border-radius: 10;
 }
 
 .enter-city {
@@ -45,4 +46,41 @@
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-font-size: 16;
+}
+
+.score-message {
+    -fx-text-fill: green;
+    -fx-font-size: 16;
+}
+
+.correct-answers {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-font-size: 26;
+}
+
+.final-message {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 26;
+}
+
+.play-again {
+    -fx-background-color: rgba(71, 152, 234, 0.6);
+    -fx-border-color: rgba(71, 152, 234, 0.6);
+}
+
+.play-again:pressed {
+    -fx-background-color: rgba(71, 152, 234, 0.25);
+    -fx-border-color: rgba(71, 152, 234, 0.35);
+}
+
+.exit {
+    -fx-background-color: rgba(224, 81, 81, 0.6);
+    -fx-border-color: rgba(224, 81, 81, 0.6);
+}
+
+.exit:pressed {
+    -fx-background-color: rgba(224, 81, 81, 0.25);
+    -fx-border-color: rgba(224, 81, 81, 0.35);
 }
