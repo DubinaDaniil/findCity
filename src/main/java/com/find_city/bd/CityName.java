@@ -1,6 +1,7 @@
 package com.find_city.bd;
 
 public class CityName {
+
     private int id;
     private String name;
     private String url;

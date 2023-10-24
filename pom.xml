@@ -66,7 +66,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.find_city.final_project/com.find_city.final_project.HelloApplication
+                            <mainClass>com.find_city.final_project/com.find_city.final_project.FindCityGame
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

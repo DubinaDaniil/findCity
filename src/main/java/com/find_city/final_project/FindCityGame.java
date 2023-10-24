@@ -10,7 +10,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public class HelloApplication extends Application {
+public class FindCityGame extends Application {
 
     URL iconURL = getClass().getResource("images/ic-kiev.png");
     Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());

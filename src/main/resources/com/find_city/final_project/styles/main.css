@@ -48,6 +48,10 @@
     -fx-font-size: 16;
 }
 
+.error-message {
+    -fx-text-fill: red;
+}
+
 .score-message {
     -fx-text-fill: green;
     -fx-font-size: 16;

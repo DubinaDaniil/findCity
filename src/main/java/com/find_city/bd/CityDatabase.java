@@ -4,33 +4,34 @@ import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 public class CityDatabase {
+
     private static final String JSON_PATH = "./src/main/DATA/city.json";
-    private final ArrayList<CityName> cities;
+    private final ArrayList<CityName> cityNameArrayList;
 
     public CityDatabase() {
         JsonCityNamesReader reader = new JsonCityNamesReader();
-        this.cities = reader.read(JSON_PATH);
+        this.cityNameArrayList = reader.gsonRead(JSON_PATH);
     }
 
-    public ArrayList<String> AllList () {
-        return (ArrayList<String>) cities.stream().map(CityName::getName).collect(Collectors.toList());
+    public ArrayList<String> allList() {
+        return (ArrayList<String>) cityNameArrayList.stream().map(CityName::getName).collect(Collectors.toList());
     }
 
-    public void remove (String CityName) {
+    public void remove(final String CityName) {
         int count = 0;
         int countForDeletingElement = 0;
-        for (CityName name : cities) {
+        for (CityName name : cityNameArrayList) {
             if (CityName.equalsIgnoreCase(name.getName().strip().toLowerCase())) {
                 countForDeletingElement = count;
             }
             count++;
         }
-        cities.remove(countForDeletingElement);
+        cityNameArrayList.remove(countForDeletingElement);
     }
 
-    public boolean contain (String cityName) {
+    public boolean contain(final String cityName) {
         boolean result = false;
-        for (CityName name : cities) {
+        for (CityName name : cityNameArrayList) {
             if (name.getName().equalsIgnoreCase(cityName.strip().toLowerCase())) {
                 result = true;
                 break;
@@ -41,6 +42,6 @@ public class CityDatabase {
 
     @Override
     public String toString() {
-        return cities.toString();
+        return cityNameArrayList.toString();
     }
 }

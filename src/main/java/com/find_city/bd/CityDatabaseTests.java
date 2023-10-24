@@ -11,10 +11,9 @@ public class CityDatabaseTests {
         database.remove("Авдіївка");
         database.remove(" алмазна ");
 
-        List<String> cityNames = database.AllList();
+        List<String> cityNames = database.allList();
 
         System.out.println(cityNames);
-
         System.out.println(database.contain(" алупка "));
     }
 }

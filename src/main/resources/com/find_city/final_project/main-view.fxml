@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.image.ImageView?>
-<VBox fx:controller="com.find_city.final_project.HelloController"
+<VBox fx:controller="com.find_city.final_project.MainViewController"
       xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
       styleClass="root"
@@ -65,6 +65,8 @@
                    styleClass="enter-city"/>
             <TextField fx:id="inputTextTextField"
                        styleClass="input"/>
+            <Label fx:id="errorLabel"
+                   styleClass="error-message"/>
         </VBox>
         <VBox GridPane.columnIndex="1"
               GridPane.rowIndex="0"
@@ -79,7 +81,7 @@
                        fitWidth="50"
                        fitHeight="50"/>
         </VBox>
-        <Button fx:id="nextCityButton"
+        <Button onAction="#onNextCityButton"
                 GridPane.columnIndex="0"
                 GridPane.rowIndex="1"
                 text="Зробити хід"
@@ -121,7 +123,7 @@
                 <Label text="Ти правильно назвав міст:"
                        styleClass="score-message"/>
                 <Label fx:id="customerCorrectAnswersLabel"
-                       text="44"
+                       text="0"
                        styleClass="correct-answers"/>
             </VBox>
             <VBox GridPane.columnIndex="1"
@@ -130,7 +132,7 @@
                 <Label text="Комп'ютер правильно назвав міст:"
                        styleClass="score-message"/>
                 <Label fx:id="pcCorrectAnswersLabel"
-                       text="44"
+                       text="0"
                        styleClass="correct-answers"/>
             </VBox>
         </GridPane>

@@ -1,64 +1,66 @@
 package com.find_city.logic;
 
 import com.find_city.bd.CityDatabase;
+import com.find_city.final_project.*;
 
 import java.util.ArrayList;
 
 public class Engine {
 
     private static final String END_GAME = "здаюсь";
-    private int player = 0;
-    private int computer = 0;
-    private String lastWord = "";
-    CityDatabase db = new CityDatabase();
 
-    public String verification(String value) {
+    private int playerScore = 0;
+    private int computerScore = 0;
+    private String lastWord = "";
+
+    CityDatabase cityDatabase = new CityDatabase();
+
+    public String verification(final String value) {
         boolean inCollection = false;
         boolean endChar = false;
-        if ("здаюсь".equalsIgnoreCase(value.trim())) {
-            this.endWindow(this.player, this.computer);
+        if (END_GAME.equalsIgnoreCase(value.trim())) {
+            this.endWindow(this.playerScore, this.computerScore);
         } else {
             endChar = this.isEndChar(value);
-            inCollection = db.contain(value);
+            inCollection = cityDatabase.contain(value);
 
-            if(inCollection && !endChar){
+            if (inCollection && !endChar) {
                 errorWindow("Слово не на останню букву");
             }
-            if(!inCollection){
+            if (!inCollection) {
                 errorWindow("Міста немає в базі");
             }
 
-            if(endChar && inCollection){
-                player++;
-                db.remove(value);
-                String result = searchWord(value.toCharArray()[value.length()-1]);
-                if(result.length() > 0){
-                    computer++;
+            if (endChar && inCollection) {
+                playerScore++;
+                cityDatabase.remove(value);
+                String result = searchWord(value.toCharArray()[value.length() - 1]);
+                if (result.length() > 0) {
+                    computerScore++;
                     lastWord = result;
                     return result;
-                }else{
-                    endWindow(player,computer);
+                } else {
+                    endWindow(playerScore, computerScore);
                 }
             }
         }
         return "";
     }
 
-    private String searchWord(char firstChar){
-        ArrayList<String> list = db.AllList();
+    private String searchWord(final char firstChar) {
+        ArrayList<String> list = cityDatabase.allList();
         String result = "";
 
-        for (String city:list) {
-            if(String.valueOf(city.toCharArray()[0]).equalsIgnoreCase(String.valueOf(firstChar))){
+        for (String city : list) {
+            if (String.valueOf(city.toCharArray()[0]).equalsIgnoreCase(String.valueOf(firstChar))) {
                 result = city;
                 break;
             }
         }
-
         return result;
     }
 
-    private boolean isEndChar(String value) {
+    private boolean isEndChar(final String value) {
         if (this.lastWord.length() == 0) {
             return true;
         } else {
@@ -68,11 +70,11 @@ public class Engine {
         }
     }
 
-    private void endWindow(int player, int computer) {
-        System.out.println("Комп'ютер = " + computer + "\nГравець = " + player);
+    private void endWindow(final int playerScore, final int computerScore) {
+        System.out.println("Комп'ютер = " + computerScore + "\nГравець = " + playerScore);
     }
 
-    private void errorWindow(String msg){
-        System.out.println("Помилка : " + msg);
+    private void errorWindow(final String errorMessage) {
+        System.out.println("Помилка : " + errorMessage);
     }
 }
