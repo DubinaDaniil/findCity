@@ -25,5 +25,6 @@ public class JsonCityNamesReader implements CityNamesReader<CityName> {
         }
         CityName[] citiesNames = GSON.fromJson(stringBuilder.toString(), CityName[].class);
         return new ArrayList<>(Arrays.asList(citiesNames));
+//        return List.of(GSON.fromJson(stringBuilder.toString(), CityName[].class));
     }
 }

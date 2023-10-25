@@ -76,12 +76,14 @@ public class MainViewController implements Initializable {
     }
 
     @FXML
-    public void onNextCityButton() {
+    public void onNextCityButton() throws IOException {
         errorLabel.setText("");
         if (inputTextTextField.getText().isEmpty()) {
             errorWindow(EMPTY_FIELD);
+        } else {
+            customerCityEmblemImageView.setImage(setImageEmblem(getCustomerCity()));
+            verification(getCustomerCity());
         }
-        verification(getCustomerCity());
         inputTextTextField.clear();
     }
 
@@ -90,7 +92,7 @@ public class MainViewController implements Initializable {
     private String lastWord = "";
 
 
-    public String verification(final String value) {
+    public void verification(final String value) throws IOException {
         boolean inCollection;
         boolean endChar;
         //add
@@ -142,14 +144,36 @@ public class MainViewController implements Initializable {
                     }
                     //add
                     pcCityLabel.setText(result);
+                    pcCityEmblemImageView.setImage(setImageEmblem(result));
                     prevCityLabel.setText(getCustomerCity());
-                    return result;
                 } else {
                     endWindow(playerScore, computerScore);
                 }
             }
         }
-        return "";
+    }
+
+
+    private Image setImageEmblem(final String city) throws IOException {
+        URL url = cityDatabase.getCityEmblemUrl(city);
+        try {
+            InputStream inputStream = url.openStream();
+            OutputStream outputStream = new FileOutputStream(city);
+            byte[] buffer = new byte[2048];
+
+            int length = 0;
+
+            while ((length = inputStream.read(buffer)) != -1) {
+                outputStream.write(buffer, 0, length);
+            }
+
+            inputStream.close();
+            outputStream.close();
+
+        } catch (Exception e) {
+            System.out.println("Exception: " + e.getMessage());
+        }
+        return new Image(String.valueOf(url));
     }
 
     //add
