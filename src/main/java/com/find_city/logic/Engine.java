@@ -3,7 +3,7 @@ package com.find_city.logic;
 import com.find_city.bd.CityDatabase;
 import com.find_city.final_project.*;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Engine {
 
@@ -48,7 +48,7 @@ public class Engine {
     }
 
     private String searchWord(final char firstChar) {
-        ArrayList<String> list = cityDatabase.allList();
+        List<String> list = cityDatabase.allList();
         String result = "";
 
         for (String city : list) {

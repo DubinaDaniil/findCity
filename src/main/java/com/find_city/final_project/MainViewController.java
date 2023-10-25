@@ -119,7 +119,7 @@ public class MainViewController implements Initializable {
     }
 
     private String searchWord(final char firstChar) {
-        ArrayList<String> list = cityDatabase.allList();
+        List<String> list = cityDatabase.allList();
         String result = "";
 
         for (String city : list) {

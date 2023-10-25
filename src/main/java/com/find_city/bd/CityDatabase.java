@@ -1,37 +1,38 @@
 package com.find_city.bd;
 
-import java.util.ArrayList;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Iterator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class CityDatabase {
 
     private static final String JSON_PATH = "./src/main/DATA/city.json";
-    private final ArrayList<CityName> cityNameArrayList;
+    private final List<CityName> cityNameList;
 
     public CityDatabase() {
         JsonCityNamesReader reader = new JsonCityNamesReader();
-        this.cityNameArrayList = reader.gsonRead(JSON_PATH);
+        this.cityNameList = reader.gsonRead(JSON_PATH);
     }
 
-    public ArrayList<String> allList() {
-        return (ArrayList<String>) cityNameArrayList.stream().map(CityName::getName).collect(Collectors.toList());
+    public List<String> allList() {
+        return cityNameList
+                .stream()
+                .map(CityName::getName)
+                .collect(Collectors.toList());
     }
 
-    public void remove(final String CityName) {
-        int count = 0;
-        int countForDeletingElement = 0;
-        for (CityName name : cityNameArrayList) {
-            if (CityName.equalsIgnoreCase(name.getName().strip().toLowerCase())) {
-                countForDeletingElement = count;
-            }
-            count++;
+    public void remove(final String cityName) {
+        Iterator<CityName> iterator = cityNameList.iterator();
+        while (iterator.hasNext()) {
+            iterator.next().getName().equalsIgnoreCase(cityName.toLowerCase().trim());
         }
-        cityNameArrayList.remove(countForDeletingElement);
     }
 
     public boolean contain(final String cityName) {
         boolean result = false;
-        for (CityName name : cityNameArrayList) {
+        for (CityName name : cityNameList) {
             if (name.getName().equalsIgnoreCase(cityName.strip().toLowerCase())) {
                 result = true;
                 break;
@@ -40,8 +41,25 @@ public class CityDatabase {
         return result;
     }
 
+    public URL getCityEmblemUrl(String cityName) throws MalformedURLException, UrlNotFoundInCityDatabaseException {
+        URL cityEmblemUrl;
+        if (contain(cityName)) {
+            String url = "";
+            for (CityName name : cityNameList) {
+                if (name.getName().equalsIgnoreCase(cityName.toLowerCase().trim())) {
+                    url = "https:" + name.getUrl();
+                    break;
+                }
+            }
+            cityEmblemUrl = new URL(url);
+        } else {
+            throw new UrlNotFoundInCityDatabaseException("URL емблемы города \"" + cityName + "\" не найдено");
+        }
+        return cityEmblemUrl;
+    }
+
     @Override
     public String toString() {
-        return cityNameArrayList.toString();
+        return cityNameList.toString();
     }
 }
