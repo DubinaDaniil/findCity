@@ -24,6 +24,6 @@ public class JsonCityNamesReader implements CityNamesReader<CityName> {
             System.out.println("File not found");
         }
         CityName[] citiesNames = GSON.fromJson(stringBuilder.toString(), CityName[].class);
-        return Arrays.asList(citiesNames);
+        return new ArrayList<>(Arrays.asList(citiesNames));
     }
 }

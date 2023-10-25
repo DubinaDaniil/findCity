@@ -2,9 +2,12 @@ package com.find_city.bd;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import static java.util.Arrays.*;
 
 public class CityDatabase {
 
@@ -24,10 +27,7 @@ public class CityDatabase {
     }
 
     public void remove(final String cityName) {
-        Iterator<CityName> iterator = cityNameList.iterator();
-        while (iterator.hasNext()) {
-            iterator.next().getName().equalsIgnoreCase(cityName.toLowerCase().trim());
-        }
+        cityNameList.removeIf(name -> name.getName().equalsIgnoreCase(cityName.toLowerCase().trim()));
     }
 
     public boolean contain(final String cityName) {
