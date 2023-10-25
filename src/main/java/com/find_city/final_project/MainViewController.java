@@ -8,6 +8,7 @@ import javafx.scene.image.*;
 import javafx.scene.layout.*;
 import javafx.util.*;
 
+import java.io.*;
 import java.net.*;
 import java.util.*;
 
@@ -92,6 +93,9 @@ public class MainViewController implements Initializable {
     public String verification(final String value) {
         boolean inCollection;
         boolean endChar;
+        //add
+        String urlImage = "";
+        //add
         if (END_GAME.equalsIgnoreCase(value.trim())) {
             endWindow(playerScore, computerScore);
         } else {
@@ -102,12 +106,41 @@ public class MainViewController implements Initializable {
 
             if (endChar && inCollection) {
                 playerScore++;
+                //add
+                try {
+                urlImage = String.valueOf(cityDatabase.getCityEmblemUrl(getCustomerCity()));
+                }catch (MalformedURLException ex){
+                    System.out.println("noDATA");
+                }
+                //add
                 cityDatabase.remove(value);
                 String result = searchWord(value.toCharArray()[value.length() - 1]);
                 if (result.length() > 0) {
+                    //add
+                    try {
+                        File file = new File(getImgCity(getCustomerCity(), urlImage));
+                       customerCityEmblemImageView.setImage(new Image(String.valueOf(file.toURI())));
+                    }catch (IOException ex){
+                        URL iconURL = getClass().getResource("images/ic-kiev.png");
+                        Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
+                        customerCityEmblemImageView.setImage(icon);
+                    }
+                    //add
                     pcCityLabel.setText("");
                     computerScore++;
                     lastWord = result;
+                    //add
+                    try {
+                        String urlImageComputer = String.valueOf(cityDatabase.getCityEmblemUrl(result));
+
+                        File file = new File(getImgCity(result, urlImageComputer));
+                        pcCityEmblemImageView.setImage(new Image(String.valueOf(file.toURI())));
+                    }catch (IOException ex){
+                        URL iconURL = getClass().getResource("images/ic-kiev.png");
+                        Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
+                        pcCityEmblemImageView.setImage(icon);
+                    }
+                    //add
                     pcCityLabel.setText(result);
                     prevCityLabel.setText(getCustomerCity());
                     return result;
@@ -118,6 +151,43 @@ public class MainViewController implements Initializable {
         }
         return "";
     }
+
+    //add
+    private String getImgCity(String name,String url) throws IOException {
+        File folderImage = new File("src/main/DATA/Images");
+        if (!folderImage.exists()) {
+            folderImage.mkdir();
+        }
+
+        String path = "src/main/DATA/Images";
+        File folder = new File(path);
+        File[] files = folder.listFiles();
+        for (File img:files) {
+            if(img.getName().equalsIgnoreCase(name + ".png")){
+                return path + "/" + img.getName();
+            }
+        }
+        if(url.length()>0){
+            downloadFile(url,path + "/" + name + ".png");
+            return path + "/" + name + ".png";
+        }else{
+            return "";
+        }
+    }
+    private static void downloadFile(String url, String fileName) throws IOException {
+        URL newUrl = new URL(url);
+        try (InputStream in = newUrl.openStream();
+             BufferedInputStream bis = new BufferedInputStream(in);
+             FileOutputStream fos = new FileOutputStream(fileName)) {
+
+            byte[] data = new byte[1024];
+            int count;
+            while ((count = bis.read(data, 0, 1024)) != -1) {
+                fos.write(data, 0, count);
+            }
+        }
+    }
+    //add
 
     private void showErrorMessage(final boolean inCollection, final boolean endChar) {
         if (inCollection && !endChar) {
