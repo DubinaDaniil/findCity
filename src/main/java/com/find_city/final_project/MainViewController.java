@@ -92,7 +92,7 @@ public class MainViewController implements Initializable {
     private String lastWord = "";
 
 
-    public void verification(final String value) {
+    public void verification(final String value) throws IOException {
         boolean inCollection;
         boolean endChar;
         if (END_GAME.equalsIgnoreCase(value.trim())) {
@@ -112,6 +112,7 @@ public class MainViewController implements Initializable {
                     computerScore++;
                     lastWord = result;
                     pcCityLabel.setText(result);
+                    pcCityEmblemImageView.setImage(setImageEmblem(result));
                     prevCityLabel.setText(getCustomerCity());
                 } else {
                     endWindow(playerScore, computerScore);
