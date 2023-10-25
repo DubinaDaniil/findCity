@@ -23,8 +23,6 @@ public class CityDatabaseTests {
             System.out.println(alupka);
         } catch (MalformedURLException e) {
             e.printStackTrace();
-        } catch (UrlNotFoundInCityDatabaseException e) {
-            e.printStackTrace();
         }
     }
 }

@@ -2,12 +2,8 @@ package com.find_city.bd;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import static java.util.Arrays.*;
 
 public class CityDatabase {
 
@@ -41,20 +37,18 @@ public class CityDatabase {
         return result;
     }
 
-    public URL getCityEmblemUrl(String cityName) throws MalformedURLException, UrlNotFoundInCityDatabaseException {
+    public URL getCityEmblemUrl(String cityName) throws MalformedURLException {
         URL cityEmblemUrl;
+        String url = "";
         if (contain(cityName)) {
-            String url = "";
             for (CityName name : cityNameList) {
                 if (name.getName().equalsIgnoreCase(cityName.toLowerCase().trim())) {
                     url = "https:" + name.getUrl();
                     break;
                 }
             }
-            cityEmblemUrl = new URL(url);
-        } else {
-            throw new UrlNotFoundInCityDatabaseException("URL емблемы города \"" + cityName + "\" не найдено");
         }
+        cityEmblemUrl = new URL(url);
         return cityEmblemUrl;
     }
 
