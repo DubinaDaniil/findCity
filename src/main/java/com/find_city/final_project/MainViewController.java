@@ -15,9 +15,11 @@ public class MainViewController implements Initializable {
 
     private static final String VICTORY = "ПЕРЕМОГА!!!";
     private static final String LOSE = "Ти програв!!!";
+    private static final String TIE = "Нічия!!!";
     private static final String END_GAME = "здаюсь";
     private static final String WRONG_LAST_LATTER = "Слово не на останню букву";
     private static final String CITY_IS_NOT_FOUND = "Міста немає в базі";
+    private static final String EMPTY_FIELD = "Ви ввели порожній рядок";
 
     @FXML
     private GridPane gameAreaGridPane;
@@ -46,11 +48,7 @@ public class MainViewController implements Initializable {
     @FXML
     private Label errorLabel;
 
-    @FXML
-    public void onStartGameButtonClick() {
-        gameAreaGridPane.setVisible(true);
-        inviteVbox.setVisible(false);
-    }
+    CityDatabase cityDatabase = new CityDatabase();
 
     @Override
     public void initialize(final URL location, final ResourceBundle resources) {
@@ -61,19 +59,27 @@ public class MainViewController implements Initializable {
     }
 
     @FXML
-    public void onPlayAgain() {
+    public void onStartGameButtonClick() {
+        gameAreaGridPane.setVisible(true);
+        inviteVbox.setVisible(false);
+    }
 
+    @FXML
+    public void onPlayAgain() {
+        dropToDefault();
     }
 
     @FXML
     public void onExit() {
-
+        System.exit(0);
     }
 
     @FXML
     public void onNextCityButton() {
         errorLabel.setText("");
-        prevCityLabel.setText(getCustomerCity());
+        if (inputTextTextField.getText().isEmpty()) {
+            errorWindow(EMPTY_FIELD);
+        }
         verification(getCustomerCity());
         inputTextTextField.clear();
     }
@@ -82,7 +88,6 @@ public class MainViewController implements Initializable {
     private int computerScore = 0;
     private String lastWord = "";
 
-    CityDatabase cityDatabase = new CityDatabase();
 
     public String verification(final String value) {
         boolean inCollection;
@@ -93,12 +98,7 @@ public class MainViewController implements Initializable {
             endChar = this.isEndChar(value);
             inCollection = cityDatabase.contain(value);
 
-            if (inCollection && !endChar) {
-                errorWindow(WRONG_LAST_LATTER);
-            }
-            if (!inCollection) {
-                errorWindow(CITY_IS_NOT_FOUND);
-            }
+            showErrorMessage(inCollection, endChar);
 
             if (endChar && inCollection) {
                 playerScore++;
@@ -109,6 +109,7 @@ public class MainViewController implements Initializable {
                     computerScore++;
                     lastWord = result;
                     pcCityLabel.setText(result);
+                    prevCityLabel.setText(getCustomerCity());
                     return result;
                 } else {
                     endWindow(playerScore, computerScore);
@@ -116,6 +117,14 @@ public class MainViewController implements Initializable {
             }
         }
         return "";
+    }
+
+    private void showErrorMessage(final boolean inCollection, final boolean endChar) {
+        if (inCollection && !endChar) {
+            errorWindow(WRONG_LAST_LATTER);
+        } else if (!inCollection) {
+            errorWindow(CITY_IS_NOT_FOUND);
+        }
     }
 
     private String searchWord(final char firstChar) {
@@ -142,6 +151,7 @@ public class MainViewController implements Initializable {
     }
 
     private void endWindow(final int playerScore, final int computerScore) {
+        finalMessage(playerScore, computerScore);
         customerCorrectAnswersLabel.setText(String.valueOf(playerScore));
         pcCorrectAnswersLabel.setText(String.valueOf(computerScore));
         gameAreaGridPane.setVisible(false);
@@ -163,5 +173,20 @@ public class MainViewController implements Initializable {
 
     private String getCustomerCity() {
         return inputTextTextField.getText();
+    }
+
+    private void dropToDefault() {
+        finalViewVbox.setVisible(false);
+        gameAreaGridPane.setVisible(true);
+        prevCityLabel.setText("");
+        pcCityLabel.setText("");
+    }
+
+    private void finalMessage(final int customerScore, final int computerScore) {
+        if (customerScore == computerScore) {
+            finalMessageLabel.setText(TIE);
+        } else if (customerScore > computerScore) {
+            finalMessageLabel.setText(VICTORY);
+        } else finalMessageLabel.setText(LOSE);
     }
 }
