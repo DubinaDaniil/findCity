@@ -22,6 +22,10 @@ public class MainViewController implements Initializable {
     private static final String CITY_IS_NOT_FOUND = "Міста немає в базі";
     private static final String EMPTY_FIELD = "Ви ввели порожній рядок";
 
+    private int playerScore = 0;
+    private int computerScore = 0;
+    private String lastWord = "";
+
     @FXML
     private GridPane gameAreaGridPane;
     @FXML
@@ -76,23 +80,18 @@ public class MainViewController implements Initializable {
     }
 
     @FXML
-    public void onNextCityButton() throws IOException {
+    public void onNextCityButton() {
         errorLabel.setText("");
         if (inputTextTextField.getText().isEmpty()) {
             errorWindow(EMPTY_FIELD);
         } else {
-            customerCityEmblemImageView.setImage(setImageEmblem(getCustomerCity()));
+//            customerCityEmblemImageView.setImage(setImageEmblem(getCustomerCity()));
             verification(getCustomerCity());
         }
         inputTextTextField.clear();
     }
 
-    private int playerScore = 0;
-    private int computerScore = 0;
-    private String lastWord = "";
-
-
-    public void verification(final String value) throws IOException {
+    private void verification(final String value) {
         boolean inCollection;
         boolean endChar;
         //add
@@ -144,7 +143,7 @@ public class MainViewController implements Initializable {
                     }
                     //add
                     pcCityLabel.setText(result);
-                    pcCityEmblemImageView.setImage(setImageEmblem(result));
+//                    pcCityEmblemImageView.setImage(setImageEmblem(result));
                     prevCityLabel.setText(getCustomerCity());
                 } else {
                     endWindow(playerScore, computerScore);
