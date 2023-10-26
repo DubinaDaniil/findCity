@@ -21,6 +21,7 @@ public class MainViewController implements Initializable {
     private static final String WRONG_LAST_LATTER = "Слово не на останню букву";
     private static final String CITY_IS_NOT_FOUND = "Міста немає в базі";
     private static final String EMPTY_FIELD = "Ви ввели порожній рядок";
+    private static final String PATH_IMAGES = "src/main/resources/com/find_city/final_project/images";
 
     private int playerScore = 0;
     private int computerScore = 0;
@@ -99,43 +100,18 @@ public class MainViewController implements Initializable {
         } else {
             endChar = this.isEndChar(value);
             inCollection = cityDatabase.contain(value);
-
             showErrorMessage(inCollection, endChar);
-
             if (endChar && inCollection) {
                 playerScore++;
                 try {
-                urlImage = String.valueOf(cityDatabase.getCityEmblemUrl(getCustomerCity()));
-                }catch (MalformedURLException ex){
-                    System.out.println("noDATA");
+                    urlImage = String.valueOf(cityDatabase.getCityEmblemUrl(getCustomerCity()));
+                } catch (MalformedURLException ex) {
+                    urlImage="";
                 }
                 cityDatabase.remove(value);
                 String result = searchWord(value.toCharArray()[value.length() - 1]);
                 if (result.length() > 0) {
-                    try {
-                        File file = new File(getImgCity(getCustomerCity(), urlImage));
-                       customerCityEmblemImageView.setImage(new Image(String.valueOf(file.toURI())));
-                    }catch (IOException ex){
-                        URL iconURL = getClass().getResource("images/ic-kiev.png");
-                        Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
-                        customerCityEmblemImageView.setImage(icon);
-                    }
-                    pcCityLabel.setText("");
-                    computerScore++;
-                    lastWord = result;
-                    try {
-                        String urlImageComputer = String.valueOf(cityDatabase.getCityEmblemUrl(result));
-
-                        File file = new File(getImgCity(result, urlImageComputer));
-                        pcCityEmblemImageView.setImage(new Image(String.valueOf(file.toURI())));
-                    }catch (IOException ex){
-                        URL iconURL = getClass().getResource("images/ic-kiev.png");
-                        Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
-                        pcCityEmblemImageView.setImage(icon);
-                    }
-                    pcCityLabel.setText(result);
-                    cityDatabase.remove(result);
-                    prevCityLabel.setText(getCustomerCity());
+                    computerAction(result,urlImage);
                 } else {
                     endWindow(playerScore, computerScore);
                 }
@@ -143,51 +119,54 @@ public class MainViewController implements Initializable {
         }
     }
 
-
-    private Image setImageEmblem(final String city) throws IOException {
-        URL url = cityDatabase.getCityEmblemUrl(city);
+    private void computerAction(final String ComputerWord , final String urlImagePlayer){
+        setImageEmblem(getCustomerCity(),urlImagePlayer,customerCityEmblemImageView);
+        pcCityLabel.setText("");
+        computerScore++;
+        lastWord = ComputerWord;
+        String urlImageComputer;
         try {
-            InputStream inputStream = url.openStream();
-            OutputStream outputStream = new FileOutputStream(city);
-            byte[] buffer = new byte[2048];
-
-            int length = 0;
-
-            while ((length = inputStream.read(buffer)) != -1) {
-                outputStream.write(buffer, 0, length);
-            }
-
-            inputStream.close();
-            outputStream.close();
-
-        } catch (Exception e) {
-            System.out.println("Exception: " + e.getMessage());
+            urlImageComputer = String.valueOf(cityDatabase.getCityEmblemUrl(ComputerWord));
+        } catch (IOException ex) {
+            urlImageComputer = "";
         }
-        return new Image(String.valueOf(url));
+        setImageEmblem(ComputerWord,urlImageComputer,pcCityEmblemImageView);
+        pcCityLabel.setText(ComputerWord);
+        cityDatabase.remove(ComputerWord);
+        prevCityLabel.setText(getCustomerCity());
     }
 
-    //add
-    private String getImgCity(String name,String url) throws IOException {
-        File folderImage = new File("src/main/DATA/Images");
+    private void setImageEmblem(final String cityName , final String cityImageURL, final ImageView image){
+        try {
+            File file = new File(getImgCity(cityName, cityImageURL));
+            image.setImage(new Image(String.valueOf(file.toURI())));
+        } catch (IOException ex) {
+            URL iconURL = getClass().getResource("images/ic-kiev.png");
+            Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
+            image.setImage(icon);
+        }
+    }
+
+    private String getImgCity(String name, String url) throws IOException {
+        File folderImage = new File(PATH_IMAGES);
         if (!folderImage.exists()) {
             folderImage.mkdir();
         }
-
-        String path = "src/main/DATA/Images";
-        File folder = new File(path);
+        File folder = new File(PATH_IMAGES);
         File[] files = folder.listFiles();
-        for (File img:files) {
-            if(img.getName().equalsIgnoreCase(name + ".png")){
-                return path + "/" + img.getName();
+        for (File img : files) {
+            if (img.getName().equalsIgnoreCase(name + ".png")) {
+                return PATH_IMAGES + "/" + img.getName();
             }
         }
-        if(url.length()>0){
-            downloadFile(url,path + "/" + name + ".png");
-            return path + "/" + name + ".png";
-        }else{
+        if (url.length() > 0) {
+            downloadFile(url, PATH_IMAGES + "/" + name + ".png");
+            return PATH_IMAGES + "/" + name + ".png";
+        } else {
             return "";
         }
     }
+
     private static void downloadFile(String url, String fileName) throws IOException {
         URL newUrl = new URL(url);
         try (InputStream in = newUrl.openStream();
@@ -201,7 +180,7 @@ public class MainViewController implements Initializable {
             }
         }
     }
-    //add
+
 
     private void showErrorMessage(final boolean inCollection, final boolean endChar) {
         if (inCollection && !endChar) {
