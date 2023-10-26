@@ -85,7 +85,6 @@ public class MainViewController implements Initializable {
         if (inputTextTextField.getText().isEmpty()) {
             errorWindow(EMPTY_FIELD);
         } else {
-//            customerCityEmblemImageView.setImage(setImageEmblem(getCustomerCity()));
             verification(getCustomerCity());
         }
         inputTextTextField.clear();
@@ -94,9 +93,7 @@ public class MainViewController implements Initializable {
     private void verification(final String value) {
         boolean inCollection;
         boolean endChar;
-        //add
         String urlImage = "";
-        //add
         if (END_GAME.equalsIgnoreCase(value.trim())) {
             endWindow(playerScore, computerScore);
         } else {
@@ -107,17 +104,14 @@ public class MainViewController implements Initializable {
 
             if (endChar && inCollection) {
                 playerScore++;
-                //add
                 try {
                 urlImage = String.valueOf(cityDatabase.getCityEmblemUrl(getCustomerCity()));
                 }catch (MalformedURLException ex){
                     System.out.println("noDATA");
                 }
-                //add
                 cityDatabase.remove(value);
                 String result = searchWord(value.toCharArray()[value.length() - 1]);
                 if (result.length() > 0) {
-                    //add
                     try {
                         File file = new File(getImgCity(getCustomerCity(), urlImage));
                        customerCityEmblemImageView.setImage(new Image(String.valueOf(file.toURI())));
@@ -126,11 +120,9 @@ public class MainViewController implements Initializable {
                         Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
                         customerCityEmblemImageView.setImage(icon);
                     }
-                    //add
                     pcCityLabel.setText("");
                     computerScore++;
                     lastWord = result;
-                    //add
                     try {
                         String urlImageComputer = String.valueOf(cityDatabase.getCityEmblemUrl(result));
 
@@ -141,9 +133,8 @@ public class MainViewController implements Initializable {
                         Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
                         pcCityEmblemImageView.setImage(icon);
                     }
-                    //add
                     pcCityLabel.setText(result);
-//                    pcCityEmblemImageView.setImage(setImageEmblem(result));
+                    cityDatabase.remove(result);
                     prevCityLabel.setText(getCustomerCity());
                 } else {
                     endWindow(playerScore, computerScore);
