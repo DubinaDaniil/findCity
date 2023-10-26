@@ -72,6 +72,12 @@ public class MainViewController implements Initializable {
     @FXML
     public void onPlayAgain() {
         dropToDefault();
+        cityDatabase = new CityDatabase();
+        lastWord = "";
+        playerScore = 0;
+        computerScore = 0;
+        customerCityEmblemImageView.setImage(null);
+        pcCityEmblemImageView.setImage(null);
     }
 
     @FXML
