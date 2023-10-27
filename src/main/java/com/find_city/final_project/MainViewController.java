@@ -26,6 +26,7 @@ public class MainViewController implements Initializable {
     private int playerScore = 0;
     private int computerScore = 0;
     private String lastWord = "";
+    private boolean i_give_up = false;
 
     @FXML
     private GridPane gameAreaGridPane;
@@ -96,6 +97,7 @@ public class MainViewController implements Initializable {
         boolean endChar;
         String urlImage = "";
         if (END_GAME.equalsIgnoreCase(value.trim())) {
+            i_give_up = true;
             endWindow(playerScore, computerScore);
         } else {
             endChar = this.isEndChar(value);
@@ -106,12 +108,12 @@ public class MainViewController implements Initializable {
                 try {
                     urlImage = String.valueOf(cityDatabase.getCityEmblemUrl(getCustomerCity()));
                 } catch (MalformedURLException ex) {
-                    urlImage="";
+                    urlImage = "";
                 }
                 cityDatabase.remove(value);
                 String result = searchWord(value.toCharArray()[value.length() - 1]);
                 if (result.length() > 0) {
-                    computerAction(result,urlImage);
+                    computerAction(result, urlImage);
                 } else {
                     endWindow(playerScore, computerScore);
                 }
@@ -119,8 +121,8 @@ public class MainViewController implements Initializable {
         }
     }
 
-    private void computerAction(final String ComputerWord , final String urlImagePlayer){
-        setImageEmblem(getCustomerCity(),urlImagePlayer,customerCityEmblemImageView);
+    private void computerAction(final String ComputerWord, final String urlImagePlayer) {
+        setImageEmblem(getCustomerCity(), urlImagePlayer, customerCityEmblemImageView);
         pcCityLabel.setText("");
         computerScore++;
         lastWord = ComputerWord;
@@ -130,13 +132,13 @@ public class MainViewController implements Initializable {
         } catch (IOException ex) {
             urlImageComputer = "";
         }
-        setImageEmblem(ComputerWord,urlImageComputer,pcCityEmblemImageView);
+        setImageEmblem(ComputerWord, urlImageComputer, pcCityEmblemImageView);
         pcCityLabel.setText(ComputerWord);
         cityDatabase.remove(ComputerWord);
         prevCityLabel.setText(getCustomerCity());
     }
 
-    private void setImageEmblem(final String cityName , final String cityImageURL, final ImageView image){
+    private void setImageEmblem(final String cityName, final String cityImageURL, final ImageView image) {
         try {
             File file = new File(getImgCity(cityName, cityImageURL));
             image.setImage(new Image(String.valueOf(file.toURI())));
@@ -253,7 +255,11 @@ public class MainViewController implements Initializable {
 
     private void finalMessage(final int customerScore, final int computerScore) {
         if (customerScore == computerScore) {
-            finalMessageLabel.setText(TIE);
+            if (i_give_up) {
+                finalMessageLabel.setText(LOSE);
+            } else {
+                finalMessageLabel.setText(TIE);
+            }
         } else if (customerScore > computerScore) {
             finalMessageLabel.setText(VICTORY);
         } else finalMessageLabel.setText(LOSE);
