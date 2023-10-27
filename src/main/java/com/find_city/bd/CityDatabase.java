@@ -2,17 +2,18 @@ package com.find_city.bd;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class CityDatabase {
 
-    private static final String JSON_PATH = "./src/main/DATA/city.json";
-    private final List<CityName> cityNameList;
+    private static final String JSON_PATH = "./src/main/resources/city.json";
+    private final List<CityName> cityNameList = new ArrayList<>();
 
     public CityDatabase() {
-        JsonCityNamesReader reader = new JsonCityNamesReader();
-        this.cityNameList = reader.gsonRead(JSON_PATH);
+        List<CityName> readCityNamesFromJson = JsonCityNamesReaderUtil.gsonRead(JSON_PATH);
+        cityNameList.addAll(readCityNamesFromJson);
     }
 
     public List<String> allList() {
@@ -23,21 +24,26 @@ public class CityDatabase {
     }
 
     public void remove(final String cityName) {
-        cityNameList.removeIf(name -> name.getName().equalsIgnoreCase(cityName.toLowerCase().trim()));
+        cityNameList.removeIf(name -> name.getName()
+                .equalsIgnoreCase(cityName.toLowerCase().trim()));
     }
 
     public boolean contain(final String cityName) {
-        boolean result = false;
+        return findUrlByCityName(cityName);
+    }
+
+    private boolean findUrlByCityName(final String cityName) {
+        boolean isUrlInCityNameList = false;
         for (CityName name : cityNameList) {
             if (name.getName().equalsIgnoreCase(cityName.strip().toLowerCase())) {
-                result = true;
+                isUrlInCityNameList = true;
                 break;
             }
         }
-        return result;
+        return isUrlInCityNameList;
     }
 
-    public URL getCityEmblemUrl(String cityName) throws MalformedURLException {
+    public URL getCityEmblemUrl(final String cityName) throws MalformedURLException {
         URL cityEmblemUrl;
         String url = "";
         if (contain(cityName)) {

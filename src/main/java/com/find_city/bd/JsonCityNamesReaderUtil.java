@@ -7,12 +7,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-public class JsonCityNamesReader implements CityNamesReader<CityName> {
+public class JsonCityNamesReaderUtil {
 
     private static final Gson GSON = new Gson();
 
-    @Override
-    public List<CityName> gsonRead(final String path) {
+    public static List<CityName> gsonRead(final String path) {
         StringBuilder stringBuilder = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
             String line;
@@ -23,8 +22,6 @@ public class JsonCityNamesReader implements CityNamesReader<CityName> {
         } catch (IOException e) {
             System.out.println("File not found");
         }
-        CityName[] citiesNames = GSON.fromJson(stringBuilder.toString(), CityName[].class);
-        return new ArrayList<>(Arrays.asList(citiesNames));
-//        return List.of(GSON.fromJson(stringBuilder.toString(), CityName[].class));
+        return Arrays.asList(GSON.fromJson(stringBuilder.toString(), CityName[].class));
     }
 }
