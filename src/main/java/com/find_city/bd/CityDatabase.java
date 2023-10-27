@@ -11,6 +11,7 @@ public class CityDatabase {
     private static final String JSON_PATH = "./src/main/resources/city.json";
     private final List<CityName> cityNameList = new ArrayList<>();
 
+
     public CityDatabase() {
         List<CityName> readCityNamesFromJson = JsonCityNamesReaderUtil.gsonRead(JSON_PATH);
         cityNameList.addAll(readCityNamesFromJson);
