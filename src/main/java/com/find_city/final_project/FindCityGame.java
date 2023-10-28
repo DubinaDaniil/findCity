@@ -12,15 +12,20 @@ import java.util.*;
 
 public class FindCityGame extends Application {
 
-    URL iconURL = getClass().getResource("images/ic-kiev.png");
-    Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
+    private static final String KIEV_IMAGE_IC = "images/ic-kiev.png";
+    private static final String MAIN_VIEW_FXML = "main-view.fxml";
+    private static final String MAIN_CSS = "styles/main.css";
+    private static final String TITLE = "Мiста";
+
+    final URL iconURL = getClass().getResource(KIEV_IMAGE_IC);
+    final Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("main-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(MAIN_VIEW_FXML));
         Scene scene = new Scene(fxmlLoader.load(), 580, 260);
-        scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("styles/main.css")).toExternalForm());
-        stage.setTitle("Мiста");
+        scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource(MAIN_CSS)).toExternalForm());
+        stage.setTitle(TITLE);
         stage.getIcons().add(icon);
         stage.setScene(scene);
         stage.show();

@@ -22,11 +22,13 @@ public class MainViewController implements Initializable {
     private static final String CITY_IS_NOT_FOUND = "Міста немає в базі";
     private static final String EMPTY_FIELD = "Ви ввели порожній рядок";
     private static final String PATH_IMAGES = "src/main/resources/com/find_city/final_project/images";
+    private static final String STRING_EMPTY = "";
+    private static final String KIEV_IMAGES_IC = "images/ic-kiev.png";
 
     private int playerScore = 0;
     private int computerScore = 0;
-    private String lastWord = "";
-    private boolean i_give_up = false;
+    private String lastWord = STRING_EMPTY;
+    private boolean loseProperties = false;
 
     @FXML
     private GridPane gameAreaGridPane;
@@ -83,7 +85,7 @@ public class MainViewController implements Initializable {
 
     @FXML
     public void onNextCityButton() {
-        errorLabel.setText("");
+        errorLabel.setText(STRING_EMPTY);
         if (inputTextTextField.getText().isEmpty()) {
             errorWindow(EMPTY_FIELD);
         } else {
@@ -95,9 +97,9 @@ public class MainViewController implements Initializable {
     private void verification(final String value) {
         boolean inCollection;
         boolean endChar;
-        String urlImage = "";
+        String urlImage;
         if (END_GAME.equalsIgnoreCase(value.trim())) {
-            i_give_up = true;
+            loseProperties = true;
             endWindow(playerScore, computerScore);
         } else {
             endChar = this.isEndChar(value);
@@ -108,7 +110,7 @@ public class MainViewController implements Initializable {
                 try {
                     urlImage = String.valueOf(cityDatabase.getCityEmblemUrl(getCustomerCity()));
                 } catch (MalformedURLException ex) {
-                    urlImage = "";
+                    urlImage = STRING_EMPTY;
                 }
                 cityDatabase.remove(value);
                 String result = searchWord(value.toCharArray()[value.length() - 1]);
@@ -123,14 +125,14 @@ public class MainViewController implements Initializable {
 
     private void computerAction(final String ComputerWord, final String urlImagePlayer) {
         setImageEmblem(getCustomerCity(), urlImagePlayer, customerCityEmblemImageView);
-        pcCityLabel.setText("");
+        pcCityLabel.setText(STRING_EMPTY);
         computerScore++;
         lastWord = ComputerWord;
         String urlImageComputer;
         try {
             urlImageComputer = String.valueOf(cityDatabase.getCityEmblemUrl(ComputerWord));
         } catch (IOException ex) {
-            urlImageComputer = "";
+            urlImageComputer = STRING_EMPTY;
         }
         setImageEmblem(ComputerWord, urlImageComputer, pcCityEmblemImageView);
         pcCityLabel.setText(ComputerWord);
@@ -143,7 +145,7 @@ public class MainViewController implements Initializable {
             File file = new File(getImgCity(cityName, cityImageURL));
             image.setImage(new Image(String.valueOf(file.toURI())));
         } catch (IOException ex) {
-            URL iconURL = getClass().getResource("images/ic-kiev.png");
+            URL iconURL = getClass().getResource(KIEV_IMAGES_IC);
             Image icon = new Image(Objects.requireNonNull(iconURL).toExternalForm());
             image.setImage(icon);
         }
@@ -194,7 +196,7 @@ public class MainViewController implements Initializable {
 
     private String searchWord(final char firstChar) {
         List<String> list = cityDatabase.allList();
-        String result = "";
+        String result = STRING_EMPTY;
 
         for (String city : list) {
             if (String.valueOf(city.toCharArray()[0]).equalsIgnoreCase(String.valueOf(firstChar))) {
@@ -232,7 +234,7 @@ public class MainViewController implements Initializable {
     }
 
     private void errorWindow(final String errorMessage) {
-        errorLabel.setText("");
+        errorLabel.setText(STRING_EMPTY);
         errorLabel.setText(errorMessage);
     }
 
@@ -242,20 +244,20 @@ public class MainViewController implements Initializable {
 
     private void dropToDefault() {
         cityDatabase = new CityDatabase();
-        lastWord = "";
+        lastWord = STRING_EMPTY;
         playerScore = 0;
         computerScore = 0;
         customerCityEmblemImageView.setImage(null);
         pcCityEmblemImageView.setImage(null);
         finalViewVbox.setVisible(false);
         gameAreaGridPane.setVisible(true);
-        prevCityLabel.setText("");
-        pcCityLabel.setText("");
+        prevCityLabel.setText(STRING_EMPTY);
+        pcCityLabel.setText(STRING_EMPTY);
     }
 
     private void finalMessage(final int customerScore, final int computerScore) {
         if (customerScore == computerScore) {
-            if (i_give_up) {
+            if (loseProperties) {
                 finalMessageLabel.setText(LOSE);
             } else {
                 finalMessageLabel.setText(TIE);
